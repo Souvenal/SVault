@@ -1,0 +1,57 @@
+# LLM-Wiki .gitignore
+
+## Buffer Directory
+# Temporary inbox for unprocessed content - NEVER commit
+buffer/
+
+## System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.#*
+
+## IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-*
+*.egg-info/
+dist/
+build/
+*.pyc
+__pycache__/
+
+## OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.lnk
+
+## Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+
+## Node/Java/Python Common
+node_modules/
+*.class
+*.jar
+*.war
+*.ear
+*.pyc
+__pycache__/
+.env
+.env.local
+
+## LaTeX/Build Artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.pdf
+*.toc
+*.synctex.gz
+*.fdb_latexmk
