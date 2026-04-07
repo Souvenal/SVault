@@ -10,18 +10,9 @@
 
 ---
 
-## Topic Logs
+## Per-Topic Logs
 
-For detailed per-topic logs, see:
-- [[render/log]]
-- [[coding/log]]
-- [[math/log]]
-- [[system/log]]
-- [[applications/log]]
-- [[network/log]]
-- [[data/log]]
-- [[software/log]]
-- [[workflow/log]]
+When knowledge topics are created, their individual `_log.md` files will be linked here for traceability.
 
 ---
 

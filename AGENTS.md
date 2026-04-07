@@ -35,46 +35,30 @@ You will strictly adhere to this fixed repository structure, with no unauthorize
 │   ├── transcripts/      # Podcast, meeting, and interview transcripts
 │   ├── books/           # Book chapters, reading notes, and long-form literary content
 │   └── assets/          # Static assets (images, diagrams, supplementary files) paired with raw sources
-├── wiki/                # Your exclusive workspace: LLM-maintained, interlinked markdown wiki pages
-│   ├── _master_index.md # Top-level navigation: links to all topic _index.md files
-│   ├── _index.md        # Root-level content catalog (auto-updated)
-│   ├── log.md           # Root-level append-only operation log
-│   ├── render/          # Topic: Computer Graphics & Rendering
-│   │   ├── _index.md    # Topic page catalog
-│   │   └── log.md       # Topic operation log
-│   ├── coding/          # Topic: Programming Languages & Tools
-│   │   ├── _index.md
-│   │   └── log.md
-│   ├── math/            # Topic: Mathematics
-│   │   ├── _index.md
-│   │   └── log.md
-│   ├── system/          # Topic: Systems & Operating Systems
-│   │   ├── _index.md
-│   │   └── log.md
-│   ├── applications/    # Topic: Development Tools & Applications
-│   │   ├── _index.md
-│   │   └── log.md
-│   ├── network/         # Topic: Networking & Protocols
-│   │   ├── _index.md
-│   │   └── log.md
-│   ├── data/            # Topic: Data & File Formats
-│   │   ├── _index.md
-│   │   └── log.md
-│   ├── software/        # Topic: Software Engineering
-│   │   ├── _index.md
-│   │   └── log.md
-│   └── workflow/        # Topic: Development Workflow & Productivity
-│       ├── _index.md
-│       └── log.md
+├── wiki/                # Knowledge base: LLM-maintained, interlinked markdown wiki pages
+│   └── <knowledge-topic>/  # Each directory = one knowledge concept (e.g., PBR, Vulkan, Cpp)
+│       ├── _index.md    # Local catalog: all pages in this knowledge topic
+│       ├── _log.md      # Local operation log (append-only)
+│       └── *.md         # Individual wiki pages for this topic
+├── _master_index.md     # Root-level: top-level navigation linking to all wiki topics
+├── _log.md              # Root-level: append-only operation log (links to topic logs)
 └── .gitignore           # Pre-configured ignore file. DO NOT MODIFY.
 ```
 
+**Wiki Naming Conventions**:
+- **Underscore prefix** (`_`) for special files: `_master_index.md`, `_log.md`, `_index.md`, `_log.md`
+  - Purpose: File explorers display these at the top, separating metadata from content
+- **Knowledge directories**: Named after concepts, not categories (e.g., `PBR`, `Vulkan`, `Cpp-Build`, `Screen-Space-Reflection`)
+- **Wiki pages**: Named descriptively, using kebab-case or camelCase as appropriate
+
 **Wiki Structure Principles**:
-- `_master_index.md` — Top-level entry point for browsing. Links to each topic's `_index.md`. Shows the overall knowledge graph shape.
-- `_index.md` (per topic) — Local catalog listing all pages in that topic directory, with 1-line summaries.
-- `log.md` (root & per topic) — Append-only chronological logs. Root log links to topic logs for traceability.
-- Pages within topics link to each other and across topics via `[[wikilinks]]` to form the knowledge graph.
-- All topic directories are created at initialization; new topics may be added with user approval.
+- **Knowledge-based, not file-tree-based**: Directories represent concepts/topics, not old folder hierarchies
+- `_master_index.md` — Top-level entry point. Links to each knowledge topic's `_index.md`. Shows overall wiki shape.
+- `_index.md` (per knowledge topic) — Local catalog listing all pages in that topic directory, with 1-line summaries.
+- `_log.md` (per knowledge topic) — Append-only chronological log for this topic.
+- Root `_log.md` — Master log that links to all topic `_log.md` files for traceability.
+- Pages connect via `[[wikilinks]]` to form the knowledge graph — cross-topic links are encouraged.
+- New knowledge topics are created only with user approval.
 
 ---
 
@@ -91,18 +75,18 @@ Triggered ONLY when the user explicitly specifies a file from the `buffer/` dire
     - Update existing topic pages with new information, with clear attribution to the source
     - Flag and document any contradictions between the new source and existing wiki content
     - Add bidirectional wikilinks between all related pages to maintain the knowledge graph
-5.  Update `wiki/_index.md` (or topic's `_index.md`) to add all new wiki pages, each with a concise 1-line summary and correct categorization.
-6.  Append a new chronological entry to `wiki/log.md` (and topic's `log.md` if applicable) in the fixed format:
+5.  Update the topic's `_index.md` to add all new wiki pages, each with a concise 1-line summary and correct categorization.
+6.  Append a new chronological entry to `wiki/<topic>/_log.md` (and root `_log.md`) in the fixed format:
      `## [YYYY-MM-DD] COMPILE | <Source Filename> | <Number of wiki pages created/modified>`
 7.  Present a complete summary of the compilation results to the user for review, including a list of modified/created pages, key takeaways, and any flagged contradictions.
 8.  CRITICAL NOTE: You will NEVER move the source file from `buffer/` to `raw/`. This action is performed exclusively by the user after review and approval.
 
 #### Workflow 2: Query & Response
 Triggered when the user asks a question against the knowledge base:
-1.  First read `wiki/_index.md` to identify all wiki pages relevant to the user's query.
+1.  First read `_master_index.md` to identify all wiki topics relevant to the user's query.
 2.  Retrieve and read the relevant wiki pages, cross-referencing with linked raw sources to ensure factual accuracy.
 3.  Synthesize a comprehensive, cited answer to the user's query, with clear references to the corresponding wiki pages and raw sources.
-4.  If the query generates new, high-value synthesis (e.g. comparative analysis, new thematic connections, structured breakdowns), create a dedicated new wiki page for this content, update `wiki/_index.md`, and append a corresponding entry to `wiki/log.md`.
+4.  If the query generates new, high-value synthesis (e.g. comparative analysis, new thematic connections, structured breakdowns), create a dedicated new wiki page for this content, update the topic's `_index.md`, and append a corresponding entry to `_log.md`.
 5.  Ensure all new content is fully interlinked with existing wiki pages to preserve and strengthen the knowledge graph.
 
 #### Workflow 3: Lint & Maintenance
@@ -115,14 +99,14 @@ Triggered ONLY by explicit user request:
     - Missing cross-references between related content
     - Unaddressed knowledge gaps with suggestions for new sources
 3.  Propose targeted fixes and updates to the user, with clear justifications for each change.
-4.  Implement only the fixes explicitly approved by the user, update relevant wiki pages, refresh `wiki/_index.md`, and append a maintenance entry to `wiki/log.md` in the format:
+4.  Implement only the fixes explicitly approved by the user, update relevant wiki pages, refresh the topic's `_index.md`, and append a maintenance entry to `_log.md` in the format:
      `## [YYYY-MM-DD] LINT | Maintenance Pass | <Number of pages updated/fixed>`
 5.  Never implement structural changes to the repository without explicit user approval.
 
 ---
 
 ### Git Integration Rules
-1.  Every set of changes to `wiki/` (including `wiki/_index.md` and `wiki/log.md`) must be committed with a clear, descriptive commit message in the fixed format:
+1.  Every set of changes to `wiki/` (including knowledge topic `_index.md` and `_log.md`) must be committed with a clear, descriptive commit message in the fixed format:
     `[ACTION] <Concise Description> | [YYYY-MM-DD]`
     Valid ACTION types: `COMPILE`, `QUERY`, `LINT`, `UPDATE`
 2.  You will never commit any content from the `buffer/` directory (it is explicitly excluded via `.gitignore`).
