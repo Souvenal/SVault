@@ -7,6 +7,7 @@
 ## Knowledge Topics
 
 - [[Bitwarden/_index|Bitwarden]] — 密码管理器 CLI 工具、会话管理、安全机制
+- [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
 
 ---
 
