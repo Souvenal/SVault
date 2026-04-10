@@ -1,14 +1,10 @@
 # LLM-Wiki Operation Log
 
-*Append-only chronological record of all repository operations.*
-
 ---
 
 ## Operations Log
 
-## [2026-04-10] COMPILE | buffer/Obsidian/Archive/Applications/bitwarden/Session.md | 2 pages created
-
-**Source**: `buffer/Obsidian/Archive/Applications/bitwarden/Session.md`
+## [2026-04-10] COMPILE | Session.md | 2 pages created
 
 **Created**:
 - `wiki/Bitwarden/CLI-工作流程.md` — Bitwarden CLI 三层架构与命令流程
