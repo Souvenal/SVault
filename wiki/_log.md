@@ -4,17 +4,57 @@
 
 ## Operations Log
 
-## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/Render/ | 4 pages migrated
+## [2026-04-11] MIGRATE | System/Android/ | 5 pages migrated
 
 **Created**:
-- `wiki/Color-Space/Gamma.md` — Gamma 校正、sRGB 格式、Mipmap 问题
-- `wiki/PBR/BRDF.md` — 能量守恒、微表面模型、GGX、Fresnel 近似
-- `wiki/Profile/Mobile-GPU.md` — ARM Mali、Qualcomm Adreno 性能工具
+- `wiki/Android-Use/APK-安装.md` — ADB install 安装与覆盖安装
+- `wiki/Android-Use/APK-信息查看.md` — Android Studio Analyze APK 分析
+- `wiki/Android-Use/Property-Service.md` — setprop/getprop 系统属性管理
+- `wiki/Android-Use/Settings-命令对比.md` — settings 与 setprop 核心区别
+- `wiki/Android-Dev/Android-Gradle.md` — Android Gradle 构建系统简介
 
-**Updated**:
-- `wiki/Shader-Layout/Memory-Layouts.md` — 新增移动端 scalar 布局踩坑记录
+**Cross-links**:
+- APK-安装.md ↔ APK-信息查看.md
+- Property-Service.md ↔ Settings-命令对比.md
 
-**Topic Logs**: [[Color-Space/_log]], [[PBR/_log]], [[Profile/_log]], [[Shader-Layout/_log]]
+**Topic Logs**: [[Android-Use/_log]], [[Android-Dev/_log]]
+
+---
+
+## [2026-04-11] MIGRATE | Linux/ | 6 pages migrated
+
+**Created**:
+- `wiki/Linux-Use/Linux-常用命令.md` — CPU、Disk、Network、sudo、chown 等常用命令
+- `wiki/Linux-Use/XDG-目录规范.md` — XDG Base Directory 规范
+- `wiki/Linux-Use/systemd-系统管理.md` — systemd 系统和服务管理器
+- `wiki/Linux-Use/WSL-使用笔记.md` — Windows Subsystem for Linux 配置
+- `wiki/Linux-Dev/SELinux.md` — Security-Enhanced Linux 安全模块
+- `wiki/Linux-Dev/动态链接库.md` — ldconfig 动态链接库管理
+
+**Cross-links**:
+- Linux-常用命令.md ↔ 动态链接库.md
+- XDG-目录规范.md ↔ Linux-常用命令.md
+- systemd-系统管理.md ↔ Linux-常用命令.md
+- WSL-使用笔记.md ↔ systemd-系统管理.md
+- SELinux.md ↔ 动态链接库.md
+
+**Topic Logs**: [[Linux-Use/_log]], [[Linux-Dev/_log]]
+
+---
+
+## [2026-04-11] CREATE | System topic framework | 9 topics created
+
+**Created topics**:
+- `wiki/Android-Dev/` — Android 平台开发
+- `wiki/Android-Use/` — Android 系统使用
+- `wiki/Linux-Dev/` — Linux 平台开发
+- `wiki/Linux-Use/` — Linux 系统使用
+- `wiki/Mac-Dev/` — macOS 平台开发
+- `wiki/Mac-Use/` — macOS 系统使用
+- `wiki/Windows-Dev/` — Windows 平台开发
+- `wiki/Windows-Use/` — Windows 系统使用
+
+**Topic Logs**: [[Android-Dev/_log]], [[Android-Use/_log]], [[Linux-Dev/_log]], [[Linux-Use/_log]], [[Mac-Dev/_log]], [[Mac-Use/_log]], [[Windows-Dev/_log]], [[Windows-Use/_log]]
 
 ---
 
@@ -378,8 +418,44 @@
 
 ---
 
+## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/System/Mac.md | 3 pages migrated
+
+**Created**:
+- `wiki/Mac-Use/Mac-启动项管理.md` — launchctl、LaunchAgents、LaunchDaemons 启动项管理
+- `wiki/Mac-Use/Mole.md` — macOS 磁盘清理工具
+- `wiki/Homebrew/Homebrew.md` — 概览页（后续拆分为 4 页）
+
+**Topic Log**: [[Mac-Use/_log]], [[Homebrew/_log]]
+
+---
+
+## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/System/Windows/ | 5 pages migrated
+
+**Created**:
+- `wiki/Windows-Dev/Windows-rc-资源文件.md` — VERSIONINFO 资源文件结构与字段说明
+- `wiki/Windows-Use/AppData-目录结构.md` — AppData 三种目录的数据同步策略与权限级别
+- `wiki/Windows-Use/Windows-开始菜单.md` — 开始菜单快捷方式路径与快速访问
+- `wiki/Windows-Use/Windows-Defender-排除项.md` — Windows Defender 添加排除项步骤
+- `wiki/Windows-Use/Alt-Tab-输入法.md` — Alt+Tab 切换时输入法自动切换问题的解决方案
+
+**Topic Log**: [[Windows-Dev/_log]], [[Windows-Use/_log]]
+
+---
+
+## [2026-04-11] SPLIT | Homebrew.md → 4 pages | 拆分内容
+
+**Created**:
+- `wiki/Homebrew/Homebrew.md` — 概览（入口）
+- `wiki/Homebrew/Formula-And-Cask.md` — Formula 与 Cask 两种包类型
+- `wiki/Homebrew/Keg-Only.md` — 自带软件冲突处理
+- `wiki/Homebrew/Taps.md` — 扩展仓库来源
+
+---
+
 ## Per-Topic Logs
 
+- [[Homebrew/_log]] — Homebrew 包管理工具日志
+- [[Mac-Use/_log]] — macOS 系统使用操作日志
 - [[Software-Testing/_log]] — Software Testing operation log
 - [[C++/_log]] — C++ 语言操作日志
 - [[cmake/_log]] — CMake 构建系统日志

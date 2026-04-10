@@ -6,6 +6,8 @@
 
 ## Knowledge Topics
 
+- [[Android-Dev/_index|Android-Dev]] — Android 平台开发相关笔记
+- [[Android-Use/_index|Android-Use]] — Android 系统使用相关笔记
 - [[Bash/_index|Bash]] — Bash shell 配置：bash_profile vs bashrc
 - [[Bitwarden/_index|Bitwarden]] — 密码管理器 CLI 工具、会话管理、安全机制
 - [[C++/_index|C++]] — C++ 语言：STL、初始化、const 重载、Tag Dispatch
@@ -20,11 +22,16 @@
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
 - [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理
 - [[Go/_index|Go]] — Go 语言：text/template 模板引擎
+- [[Homebrew/_index|Homebrew]] — macOS 包管理工具：Formula、Cask、keg-only
 - [[JSON/_index|JSON]] — JSON 数据格式：JSONL、$schema 声明
 - [[LaTeX/_index|LaTeX]] — LaTeX 文档排版系统：引擎、格式、宏包、中文支持
 - [[Linear-Algebra/_index|Linear-Algebra]] — 线性代数：t-SVD 分解、Kronecker 积
+- [[Linux-Dev/_index|Linux-Dev]] — Linux 平台开发相关笔记
+- [[Linux-Use/_index|Linux-Use]] — Linux 系统使用相关笔记
 - [[LiteLLM/_index|LiteLLM]] — 统一调用 100+ LLM API 的 Python SDK 和代理服务器
 - [[Lua/_index|Lua]] — Lua 语言：package 系统、require、模块加载
+- [[Mac-Dev/_index|Mac-Dev]] — macOS 平台开发相关笔记
+- [[Mac-Use/_index|Mac-Use]] — macOS 系统使用相关笔记
 - [[Neovim/_index|Neovim]] — Neovim 编辑器：Lua 配置、插件系统、平台配置
 - [[Nix/_index|Nix]] — 函数式包管理器、nix-shell 临时环境
 - [[Nodejs/_index|Nodejs]] — JavaScript 运行时、npm/npx、版本管理
@@ -45,6 +52,8 @@
 - [[Unity/_index|Unity]] — Unity 游戏引擎：渲染架构、Compute Shader、API 回退机制
 - [[VSCode/_index|VSCode]] — VSCode 编辑器：按键优先级、配置技巧
 - [[Vulkan/_index|Vulkan]] — Vulkan 图形 API：Descriptor、光线追踪、扩展机制
+- [[Windows-Dev/_index|Windows-Dev]] — Windows 平台开发相关笔记
+- [[Windows-Use/_index|Windows-Use]] — Windows 系统使用相关笔记
 - [[Web/_index|Web]] — Web 相关技术、协议与机制
 - [[vcpkg/_index|vcpkg]] — C++ 包管理工具：依赖库管理、常用命令
 - [[xmake/_index|xmake]] — xmake 构建工具：命令、配置、构建
