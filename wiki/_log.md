@@ -4,6 +4,17 @@
 
 ## Operations Log
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/shell | 3 pages created
+
+**Created**:
+- `wiki/Bash/bash-profile-vs-bashrc.md` — .bash_profile 与 .bashrc 的执行时机、职责分工
+- `wiki/Fish/fish-setup.md` — 安装、环境变量配置、bash 脚本兼容、conda 集成
+- `wiki/PowerShell/mklink.md` — 在 PowerShell 中使用 mklink 创建软链接
+
+**Topic Logs**: [[Bash/_log]], [[Fish/_log]], [[PowerShell/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/nix | 1 page created
 
 **Created**:
@@ -111,15 +122,18 @@
 
 ## Per-Topic Logs
 
+- [[Bash/_log]] — Bash shell 配置日志
 - [[Bitwarden/_log]] — Bitwarden CLI 使用笔记
 - [[Claude-Code/_log]] — Claude Code CLI 操作日志
 - [[Docker/_log]] — Docker 容器化操作日志
+- [[Fish/_log]] — Fish shell 配置日志
 - [[Git/_log]] — Git 版本控制操作日志
 - [[GPG/_log]] — GnuPG 加密签名日志
 - [[Neovim/_log]] — Neovim 编辑器操作日志
 - [[Nix/_log]] — Nix 包管理器操作日志
 - [[Nodejs/_log]] — Node.js 生态操作日志
 - [[OpenCode/_log]] — OpenCode CLI 操作日志
+- [[PowerShell/_log]] — PowerShell 配置日志
 - [[VSCode/_log]] — VSCode 编辑器操作日志
 - [[chezmoi/_log]] — chezmoi dotfiles 同步日志
 
