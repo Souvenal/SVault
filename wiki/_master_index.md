@@ -13,6 +13,7 @@
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
 - [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理
 - [[Neovim/_index|Neovim]] — Neovim 编辑器：Lua 配置、插件系统、平台配置
+- [[Nix/_index|Nix]] — 函数式包管理器、nix-shell 临时环境
 - [[Nodejs/_index|Nodejs]] — JavaScript 运行时、npm/npx、版本管理
 - [[OpenCode/_index|OpenCode]] — 终端 AI 助手工具
 - [[VSCode/_index|VSCode]] — VSCode 编辑器：按键优先级、配置技巧

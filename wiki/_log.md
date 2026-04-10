@@ -4,6 +4,15 @@
 
 ## Operations Log
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/nix | 1 page created
+
+**Created**:
+- `wiki/Nix/Nix.md` — 安装入门、nix-shell 临时环境、垃圾清理
+
+**Topic Log**: [[Nix/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | chezmoi.md | 1 page created
 
 **Created**:
@@ -108,6 +117,7 @@
 - [[Git/_log]] — Git 版本控制操作日志
 - [[GPG/_log]] — GnuPG 加密签名日志
 - [[Neovim/_log]] — Neovim 编辑器操作日志
+- [[Nix/_log]] — Nix 包管理器操作日志
 - [[Nodejs/_log]] — Node.js 生态操作日志
 - [[OpenCode/_log]] — OpenCode CLI 操作日志
 - [[VSCode/_log]] — VSCode 编辑器操作日志
