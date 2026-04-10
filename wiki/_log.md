@@ -4,6 +4,17 @@
 
 ## Operations Log
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/agents | 3 pages created
+
+**Created**:
+- `wiki/OpenCode/OpenCode.md` — 安装、API 配置、键位绑定
+- `wiki/Claude-Code/Claude-Code.md` — 使用、配置、历史记录
+- `wiki/Claude-Code/Login.md` — 首次登录绕过方法
+
+**Topic Logs**: [[OpenCode/_log]], [[Claude-Code/_log]]
+
+---
+
 ## [2026-04-10] COMPILE | Session.md | 2 pages created
 
 **Created**:
@@ -50,9 +61,11 @@
 ## Per-Topic Logs
 
 - [[Bitwarden/_log]] — Bitwarden CLI 使用笔记
+- [[Claude-Code/_log]] — Claude Code CLI 操作日志
 - [[Docker/_log]] — Docker 容器化操作日志
 - [[Git/_log]] — Git 版本控制操作日志
 - [[Nodejs/_log]] — Node.js 生态操作日志
+- [[OpenCode/_log]] — OpenCode CLI 操作日志
 
 ---
 

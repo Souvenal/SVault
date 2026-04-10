@@ -7,9 +7,11 @@
 ## Knowledge Topics
 
 - [[Bitwarden/_index|Bitwarden]] — 密码管理器 CLI 工具、会话管理、安全机制
+- [[Claude-Code/_index|Claude-Code]] — Anthropic 官方终端 AI 编程助手
 - [[Docker/_index|Docker]] — 容器化技术：核心概念、常用命令
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
 - [[Nodejs/_index|Nodejs]] — JavaScript 运行时、npm/npx、版本管理
+- [[OpenCode/_index|OpenCode]] — 终端 AI 助手工具
 
 ---
 
