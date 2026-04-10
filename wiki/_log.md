@@ -37,9 +37,20 @@
 
 ---
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/docker | 2 pages created
+
+**Created**:
+- `wiki/Docker/核心概念.md` — Image、Container、Dockerfile、Repository 四大核心实体
+- `wiki/Docker/常用命令.md` — pull、build、run、compose 等日常操作命令
+
+**Topic Log**: [[Docker/_log]]
+
+---
+
 ## Per-Topic Logs
 
 - [[Bitwarden/_log]] — Bitwarden CLI 使用笔记
+- [[Docker/_log]] — Docker 容器化操作日志
 - [[Git/_log]] — Git 版本控制操作日志
 - [[Nodejs/_log]] — Node.js 生态操作日志
 
