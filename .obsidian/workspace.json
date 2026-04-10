@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "9f3ba63460f4fed4",
+    "type": "split",
+    "children": [
+      {
+        "id": "895503ecf3f6b6c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd6440312c26d265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/Bitwarden/会话管理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "会话管理"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "932b8ef1bd660ee6",
+    "type": "split",
+    "children": [
+      {
+        "id": "bec8f8a927b3e52f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a7c0765939d2b10",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "db916b9443714f15",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "966ea7674f01d6d3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2500df2527394380",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d70d4945f9dabbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aee280957a3ba1ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "f37a029e3cd76816",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "e5268ceb2dbbf390",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c8df0e2a4c61bc50",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "2ec8dfaecc942401",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "bd6440312c26d265",
+  "lastOpenFiles": [
+    "wiki/Bitwarden/_index.md",
+    "wiki/Bitwarden/CLI-工作流程.md",
+    "session-ses_289c.md",
+    "wiki/_master_index.md",
+    "buffer/Real-Time Neural Appearance Models.md",
+    "wiki/Bitwarden/会话管理.md",
+    "wiki/Bitwarden/_log.md",
+    "wiki/Bitwarden",
+    "buffer/assets/sampling.jpg",
+    "buffer/assets/lod.jpg",
+    "buffer/assets/results.jpg",
+    "buffer/assets/model.jpg",
+    "buffer/assets/materials.jpg",
+    "buffer/assets/teaser.jpg",
+    "wiki/_log.md",
+    "_log.md",
+    "_master_index.md",
+    "wiki/workflow/log.md",
+    "wiki/workflow/_index.md",
+    "wiki/software/log.md",
+    "wiki/software/_index.md",
+    "wiki/data/log.md",
+    "wiki/data/_index.md",
+    "wiki/network/log.md",
+    "wiki/network/_index.md",
+    "wiki/applications/log.md",
+    "wiki/applications/_index.md",
+    "wiki/system/log.md",
+    "wiki/system/_index.md",
+    "wiki/math/log.md",
+    "wiki/math/_index.md",
+    "wiki/coding/log.md",
+    "wiki/coding/_index.md",
+    "wiki/workflow",
+    "wiki/software",
+    "wiki/data",
+    "wiki/network",
+    "wiki/applications",
+    "wiki/system",
+    "wiki/math",
+    "wiki/coding",
+    "wiki/render",
+    "raw/assets/lod.jpg",
+    "raw/assets/sampling.jpg",
+    "raw/assets/results.jpg",
+    "raw/assets/model.jpg"
+  ]
+}

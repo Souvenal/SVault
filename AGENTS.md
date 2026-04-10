@@ -36,12 +36,12 @@ You will strictly adhere to this fixed repository structure, with no unauthorize
 │   ├── books/           # Book chapters, reading notes, and long-form literary content
 │   └── assets/          # Static assets (images, diagrams, supplementary files) paired with raw sources
 ├── wiki/                # Knowledge base: LLM-maintained, interlinked markdown wiki pages
+│   ├── _master_index.md # Top-level navigation linking to all wiki topics
+│   ├── _log.md         # Append-only operation log (links to topic logs)
 │   └── <knowledge-topic>/  # Each directory = one knowledge concept (e.g., PBR, Vulkan, Cpp)
 │       ├── _index.md    # Local catalog: all pages in this knowledge topic
 │       ├── _log.md      # Local operation log (append-only)
 │       └── *.md         # Individual wiki pages for this topic
-├── _master_index.md     # Root-level: top-level navigation linking to all wiki topics
-├── _log.md              # Root-level: append-only operation log (links to topic logs)
 └── .gitignore           # Pre-configured ignore file. DO NOT MODIFY.
 ```
 
@@ -53,12 +53,18 @@ You will strictly adhere to this fixed repository structure, with no unauthorize
 
 **Wiki Structure Principles**:
 - **Knowledge-based, not file-tree-based**: Directories represent concepts/topics, not old folder hierarchies
-- `_master_index.md` — Top-level entry point. Links to each knowledge topic's `_index.md`. Shows overall wiki shape.
+- `wiki/_master_index.md` — Top-level entry point. Links to each knowledge topic's `_index.md`. Shows overall wiki shape.
+- `wiki/_log.md` — Master log that links to all topic `_log.md` files for traceability.
 - `_index.md` (per knowledge topic) — Local catalog listing all pages in that topic directory, with 1-line summaries.
 - `_log.md` (per knowledge topic) — Append-only chronological log for this topic.
-- Root `_log.md` — Master log that links to all topic `_log.md` files for traceability.
 - Pages connect via `[[wikilinks]]` to form the knowledge graph — cross-topic links are encouraged.
 - New knowledge topics are created only with user approval.
+
+**Wiki Content Language**:
+- All wiki entries (`*.md` files in `wiki/` directory) must be written in **Chinese (中文)**.
+- This includes `_index.md`, individual topic pages, and any synthesized content.
+- The only exceptions are: technical terms, code snippets, proper nouns, and direct quotes from sources.
+- Raw source files (in `raw/`) may be in any language — the Chinese requirement applies only to wiki output.
 
 ---
 
@@ -83,10 +89,10 @@ Triggered ONLY when the user explicitly specifies a file from the `buffer/` dire
 
 #### Workflow 2: Query & Response
 Triggered when the user asks a question against the knowledge base:
-1.  First read `_master_index.md` to identify all wiki topics relevant to the user's query.
+1.  First read `wiki/_master_index.md` to identify all wiki topics relevant to the user's query.
 2.  Retrieve and read the relevant wiki pages, cross-referencing with linked raw sources to ensure factual accuracy.
 3.  Synthesize a comprehensive, cited answer to the user's query, with clear references to the corresponding wiki pages and raw sources.
-4.  If the query generates new, high-value synthesis (e.g. comparative analysis, new thematic connections, structured breakdowns), create a dedicated new wiki page for this content, update the topic's `_index.md`, and append a corresponding entry to `_log.md`.
+4.  If the query generates new, high-value synthesis (e.g. comparative analysis, new thematic connections, structured breakdowns), create a dedicated new wiki page for this content, update the topic's `_index.md`, and append a corresponding entry to `wiki/_log.md`.
 5.  Ensure all new content is fully interlinked with existing wiki pages to preserve and strengthen the knowledge graph.
 
 #### Workflow 3: Lint & Maintenance
@@ -99,7 +105,7 @@ Triggered ONLY by explicit user request:
     - Missing cross-references between related content
     - Unaddressed knowledge gaps with suggestions for new sources
 3.  Propose targeted fixes and updates to the user, with clear justifications for each change.
-4.  Implement only the fixes explicitly approved by the user, update relevant wiki pages, refresh the topic's `_index.md`, and append a maintenance entry to `_log.md` in the format:
+4.  Implement only the fixes explicitly approved by the user, update relevant wiki pages, refresh the topic's `_index.md`, and append a maintenance entry to `wiki/_log.md` in the format:
      `## [YYYY-MM-DD] LINT | Maintenance Pass | <Number of pages updated/fixed>`
 5.  Never implement structural changes to the repository without explicit user approval.
 
