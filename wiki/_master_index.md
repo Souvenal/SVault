@@ -29,6 +29,7 @@
 - [[Nodejs/_index|Nodejs]] — JavaScript 运行时、npm/npx、版本管理
 - [[OpenCode/_index|OpenCode]] — 终端 AI 助手工具
 - [[PowerShell/_index|PowerShell]] — PowerShell 配置：mklink 软链接
+- [[PyTorch/_index|PyTorch]] — PyTorch 深度学习框架：CUDA 兼容性、sm 计算能力
 - [[Remote-Desktop/_index|Remote-Desktop]] — 远程桌面方案：DIY 自建与商业软件
 - [[UE5/_index|UE5]] — Unreal Engine 5：渲染管线、线程模型、框架类
 - [[VSCode/_index|VSCode]] — VSCode 编辑器：按键优先级、配置技巧

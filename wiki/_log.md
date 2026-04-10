@@ -4,6 +4,15 @@
 
 ## Operations Log
 
+## [2026-04-10] MIGRATE | pytorch.md | 1 page created
+
+**Created**:
+- `wiki/PyTorch/CUDA-Compatibility.md` — RTX 5060 Ti Blackwell 架构 sm_120 CUDA 兼容性
+
+**Topic Log**: [[PyTorch/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/LaTeX | 7 pages created
 
 **Created**:
@@ -266,6 +275,7 @@
 - [[JSON/_log]] — JSON 数据格式操作日志
 - [[LaTeX/_log]] — LaTeX 排版系统操作日志
 - [[Lua/_log]] — Lua 语言操作日志
+- [[PyTorch/_log]] — PyTorch 深度学习框架日志
 - [[UE5/_log]] — Unreal Engine 5 操作日志
 
 ---
