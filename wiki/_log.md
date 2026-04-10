@@ -270,6 +270,16 @@
 
 ---
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Network/Protocol | 2 pages migrated
+
+**Created**:
+- `wiki/Protocol/TLS.md` — TLS 握手流程、SNI 扩展
+- `wiki/Web/CORS.md` — 跨域资源共享，浏览器安全机制
+
+**Topic Logs**: [[Protocol/_log]], [[Web/_log]]
+
+---
+
 ## Per-Topic Logs
 
 - [[C++/_log]] — C++ 语言操作日志
@@ -288,7 +298,9 @@
 - [[Nodejs/_log]] — Node.js 生态操作日志
 - [[OpenCode/_log]] — OpenCode CLI 操作日志
 - [[PowerShell/_log]] — PowerShell 配置日志
+- [[Protocol/_log]] — 网络协议与通信协议日志
 - [[VSCode/_log]] — VSCode 编辑器操作日志
+- [[Web/_log]] — Web 相关技术日志
 - [[chezmoi/_log]] — chezmoi dotfiles 同步日志
 - [[Differential-Geometry/_log]] — 微分几何操作日志
 - [[Linear-Algebra/_log]] — 线性代数操作日志
