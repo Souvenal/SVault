@@ -148,6 +148,15 @@
 
 ---
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/go/text-template.md | 1 page created
+
+**Created**:
+- `wiki/Go/text-template.md` — text/template 包 quote 函数用法
+
+**Topic Log**: [[Go/_log]]
+
+---
+
 ## Per-Topic Logs
 
 - [[Bash/_log]] — Bash shell 配置日志
@@ -168,6 +177,7 @@
 - [[Differential-Geometry/_log]] — 微分几何操作日志
 - [[Linear-Algebra/_log]] — 线性代数操作日志
 - [[Dotnet/_log]] — .NET 平台操作日志
+- [[Go/_log]] — Go 语言操作日志
 
 ---
 
