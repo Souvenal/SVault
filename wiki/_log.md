@@ -67,14 +67,29 @@
 
 ---
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/editors | 5 pages created
+
+**Created**:
+- `wiki/VSCode/Key-Bindings.md` — 按键优先级机制
+- `wiki/Neovim/Lua-Architecture.md` — Lua 配置架构、模块系统
+- `wiki/Neovim/Vim-Basics.md` — Vim 通用知识
+- `wiki/Neovim/Plugins.md` — 插件列表
+- `wiki/Neovim/Windows.md` — Windows 平台配置
+
+**Topic Logs**: [[VSCode/_log]], [[Neovim/_log]]
+
+---
+
 ## Per-Topic Logs
 
 - [[Bitwarden/_log]] — Bitwarden CLI 使用笔记
 - [[Claude-Code/_log]] — Claude Code CLI 操作日志
 - [[Docker/_log]] — Docker 容器化操作日志
 - [[Git/_log]] — Git 版本控制操作日志
+- [[Neovim/_log]] — Neovim 编辑器操作日志
 - [[Nodejs/_log]] — Node.js 生态操作日志
 - [[OpenCode/_log]] — OpenCode CLI 操作日志
+- [[VSCode/_log]] — VSCode 编辑器操作日志
 - [[chezmoi/_log]] — chezmoi dotfiles 同步日志
 
 ---
