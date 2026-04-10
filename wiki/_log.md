@@ -4,6 +4,15 @@
 
 ## Operations Log
 
+## [2026-04-10] MIGRATE | chezmoi.md | 1 page created
+
+**Created**:
+- `wiki/chezmoi/chezmoi.md` — 跨机器 dotfiles 同步工具
+
+**Topic Log**: [[chezmoi/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/agents | 3 pages created
 
 **Created**:
@@ -66,6 +75,7 @@
 - [[Git/_log]] — Git 版本控制操作日志
 - [[Nodejs/_log]] — Node.js 生态操作日志
 - [[OpenCode/_log]] — OpenCode CLI 操作日志
+- [[chezmoi/_log]] — chezmoi dotfiles 同步日志
 
 ---
 
