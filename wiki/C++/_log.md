@@ -1,3 +1,13 @@
+## [2026-04-10] MIGRATE | C++开发踩坑.md | 2 pages created
+
+**Created**:
+- wiki/C++/移动语义.md — 析构函数中指针释放的移动语义处理
+- wiki/vcpkg/命令.md — vcpkg x-update-baseline 命令
+
+**Topic Logs**: [[C++/_log]], [[vcpkg/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | C++ | 5 pages created
 
 **Created**:
