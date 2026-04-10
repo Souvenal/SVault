@@ -7,6 +7,7 @@
 ## Knowledge Topics
 
 - [[Bash/_index|Bash]] — Bash shell 配置：bash_profile vs bashrc
+- [[Remote-Desktop/_index|Remote-Desktop]] — 远程桌面方案：DIY 自建与商业软件
 - [[Bitwarden/_index|Bitwarden]] — 密码管理器 CLI 工具、会话管理、安全机制
 - [[chezmoi/_index|chezmoi]] — 跨机器 dotfiles 同步工具
 - [[Claude-Code/_index|Claude-Code]] — Anthropic 官方终端 AI 编程助手

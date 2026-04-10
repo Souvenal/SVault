@@ -4,6 +4,15 @@
 
 ## Operations Log
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/remote-desktop/ | 1 page created
+
+**Created**:
+- `wiki/Remote-Desktop/远程桌面方案.md` — Sunshine/Moonlight 自建方案与 UU 远程商业方案
+
+**Topic Log**: [[Remote-Desktop/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Math/Math.md | 2 pages created
 
 **Created**:
@@ -133,6 +142,7 @@
 ## Per-Topic Logs
 
 - [[Bash/_log]] — Bash shell 配置日志
+- [[Remote-Desktop/_log]] — 远程桌面方案日志
 - [[Bitwarden/_log]] — Bitwarden CLI 使用笔记
 - [[Claude-Code/_log]] — Claude Code CLI 操作日志
 - [[Docker/_log]] — Docker 容器化操作日志
