@@ -1,4 +1,5 @@
-# LLM-Wiki .gitignore
+# obsidian
+.obsidian/workspace.json
 
 ## Buffer Directory
 # Temporary inbox for unprocessed content - NEVER commit
