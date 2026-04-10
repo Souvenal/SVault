@@ -157,6 +157,19 @@
 
 ---
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/UE5/ | 5 pages created
+
+**Created**:
+- `wiki/UE5/线程模型.md` — Game Thread 与 Render Thread 双线程架构
+- `wiki/UE5/框架类.md` — UBlueprintFunctionLibrary 等基础框架类
+- `wiki/UE5/常见错误.md` — VisualStudioTools 等常见错误解决方案
+- `wiki/UE5/RDG-事件作用域.md` — RDG_EVENT_SCOPE GPU 调试标记
+- `wiki/UE5/FSceneViewExtensionBase.md` — 渲染流程劫持、View 系列回调
+
+**Topic Log**: [[UE5/_log]]
+
+---
+
 ## Per-Topic Logs
 
 - [[Bash/_log]] — Bash shell 配置日志
@@ -178,6 +191,7 @@
 - [[Linear-Algebra/_log]] — 线性代数操作日志
 - [[Dotnet/_log]] — .NET 平台操作日志
 - [[Go/_log]] — Go 语言操作日志
+- [[UE5/_log]] — Unreal Engine 5 操作日志
 
 ---
 
