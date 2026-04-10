@@ -24,6 +24,49 @@
 
 ---
 
+## [2026-04-11] MIGRATE | buffer/Vulkan/ | 9 pages migrated
+
+**Created**:
+- `wiki/Vulkan/Depth-Testing.md` — 深度测试不写入的 8 种场景
+- `wiki/Vulkan/Rendering-Pipeline.md` — 渲染管线总览与阶段依赖
+- `wiki/Vulkan/Fixed-Function-Stages.md` — Input Assembler、Viewport、Rasterizer、Blending
+- `wiki/Vulkan/Render-Pass.md` — Attachment、Subpass、Dynamic Rendering
+- `wiki/Vulkan/Memory-Management.md` — VMA、Aliasing、Host Coherent
+- `wiki/Vulkan/Swapchain.md` — Swap Chain 创建与重建
+- `wiki/Vulkan/Shader-Compilation.md` — libshaderc、SPIR-V 编译
+- `wiki/Vulkan/Texture-Sampler.md` — Mipmap、MSAA、Comparison Function
+- `wiki/Vulkan/Synchronization.md` — Semaphore、Stage、Fence 同步原语
+
+**Topic Log**: [[Vulkan/_log]]
+
+---
+
+## [2026-04-11] MIGRATE | Vulkan/Depth-Testing + Fixed-Function-Stages → Rendering-Pipeline | 3 pages migrated
+
+**Created**:
+- `wiki/Rendering-Pipeline/Depth-Testing.md` — 深度测试不写入的渲染场景（透明物体、粒子、体积渲染）
+- `wiki/Rendering-Pipeline/Fixed-Function-Stages.md` — 固定功能阶段概念（IA、Viewport、Rasterizer、Blending、Tessellation、Geometry Shader）
+- `wiki/Rendering-Pipeline/Rendering-Pipeline.md` — 管线阶段总览与坐标系统
+
+**Topic Log**: [[Rendering-Pipeline/_log]]
+
+---
+
+## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/Render/Vulkan | 7 pages migrated
+
+**Created**:
+- `wiki/Vulkan/Descriptor.md` — Descriptor Set 生命周期与 Bindless
+- `wiki/Vulkan/Ray-Tracing.md` — 加速结构与 Shader Binding Table
+- `wiki/Vulkan/Extension.md` — Instance/Device 扩展
+- `wiki/Vulkan/ICD.md` — ICD 架构
+- `wiki/Vulkan/Android-Development.md` — Android Vulkan 开发
+- `wiki/Vulkan/Validation.md` — 校验层错误处理
+- `wiki/Vulkan/Pitfalls.md` — 踩坑记录
+
+**Topic Log**: [[Vulkan/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/Shading-Languages | 5 pages created
 
 **Created**:
@@ -347,6 +390,7 @@
 - [[SPIR-V/_log]] — SPIR-V 编译器工具链日志
 - [[UE5/_log]] — Unreal Engine 5 操作日志
 - [[Unity/_log]] — Unity 游戏引擎操作日志
+- [[Vulkan/_log]] — Vulkan 图形 API 操作日志
 - [[vcpkg/_log]] — vcpkg C++ 包管理工具日志
 
 ---

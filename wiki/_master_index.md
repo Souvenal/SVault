@@ -31,6 +31,7 @@
 - [[PowerShell/_index|PowerShell]] — PowerShell 配置：mklink 软链接
 - [[Protocol/_index|Protocol]] — 网络协议与通信协议
 - [[PyTorch/_index|PyTorch]] — PyTorch 深度学习框架：CUDA 兼容性、sm 计算能力
+- [[Rendering-Pipeline/_index|Rendering-Pipeline]] — 渲染管线通用概念：Depth-Testing、Fixed-Function-Stages
 - [[Ray-Tracing/_index|Ray-Tracing]] — 光线追踪：Inline Ray Tracing、RayQuery 状态机
 - [[Remote-Desktop/_index|Remote-Desktop]] — 远程桌面方案：DIY 自建与商业软件
 - [[Shader-Languages/_index|Shader-Languages]] — GLSL/HLSL/Slang：线程变量、矩阵布局对比
@@ -40,6 +41,7 @@
 - [[UE5/_index|UE5]] — Unreal Engine 5：渲染管线、线程模型、框架类
 - [[Unity/_index|Unity]] — Unity 游戏引擎：渲染架构、Compute Shader、API 回退机制
 - [[VSCode/_index|VSCode]] — VSCode 编辑器：按键优先级、配置技巧
+- [[Vulkan/_index|Vulkan]] — Vulkan 图形 API：Descriptor、光线追踪、扩展机制
 - [[Web/_index|Web]] — Web 相关技术、协议与机制
 - [[vcpkg/_index|vcpkg]] — C++ 包管理工具：依赖库管理、常用命令
 - [[xmake/_index|xmake]] — xmake 构建工具：命令、配置、构建
