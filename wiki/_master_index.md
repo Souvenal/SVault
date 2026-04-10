@@ -38,6 +38,7 @@
 - [[Software-Testing/_index|Software-Testing]] — 软件测试技术：符号执行、KLEE
 - [[SPIR-V/_index|SPIR-V]] — SPIR-V 编译器工具链：DXC、HLSLcc、编译流程
 - [[UE5/_index|UE5]] — Unreal Engine 5：渲染管线、线程模型、框架类
+- [[Unity/_index|Unity]] — Unity 游戏引擎：渲染架构、Compute Shader、API 回退机制
 - [[VSCode/_index|VSCode]] — VSCode 编辑器：按键优先级、配置技巧
 - [[Web/_index|Web]] — Web 相关技术、协议与机制
 - [[vcpkg/_index|vcpkg]] — C++ 包管理工具：依赖库管理、常用命令

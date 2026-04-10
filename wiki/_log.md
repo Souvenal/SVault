@@ -4,6 +4,26 @@
 
 ## Operations Log
 
+## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/Render/Engine/Unity | 3 pages migrated
+
+**Created**:
+- `wiki/Unity/GfxDevice.md` — 底层渲染架构：GfxDeviceXXX 层次结构、资源管理机制
+- `wiki/Unity/Compute-Shader.md` — Compute Shader：HLSL 入口声明、C# 调用、资源绑定
+- `wiki/Unity/Graphics-API-Fallback.md` — 图形 API 回退：Vulkan 校验层导致的 OpenGL ES 回退
+
+**Topic Log**: [[Unity/_log]]
+
+---
+
+## [2026-04-11] MIGRATE | PolySpatial.md | 1 page migrated
+
+**Created**:
+- `wiki/Unity/PolySpatial.md` — Vision Pro 混合现实：环境配置、Play to Device、功能模块一览
+
+**Topic Log**: [[Unity/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/Shading-Languages | 5 pages created
 
 **Created**:
@@ -326,6 +346,7 @@
 - [[Shader-Layout/_log]] — Shader-Layout 内存布局操作日志
 - [[SPIR-V/_log]] — SPIR-V 编译器工具链日志
 - [[UE5/_log]] — Unreal Engine 5 操作日志
+- [[Unity/_log]] — Unity 游戏引擎操作日志
 - [[vcpkg/_log]] — vcpkg C++ 包管理工具日志
 
 ---
