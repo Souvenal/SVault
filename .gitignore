@@ -2,6 +2,9 @@
 .obsidian/graph.json
 .obsidian/workspace.json
 
+# agents
+.sisyphus
+
 ## Buffer Directory
 # Temporary inbox for unprocessed content - NEVER commit
 buffer/
