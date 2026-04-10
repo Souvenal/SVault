@@ -17,6 +17,7 @@
 - [[Fish/_index|Fish]] — Fish shell 配置：环境变量、bash 脚本兼容
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
 - [[Go/_index|Go]] — Go 语言：text/template 模板引擎
+- [[JSON/_index|JSON]] — JSON 数据格式：JSONL、$schema 声明
 - [[Linear-Algebra/_index|Linear-Algebra]] — 线性代数：t-SVD 分解、Kronecker 积
 - [[UE5/_index|UE5]] — Unreal Engine 5：渲染管线、线程模型、框架类
 - [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理

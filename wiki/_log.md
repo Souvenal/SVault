@@ -4,6 +4,17 @@
 
 ## Operations Log
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Data/file-format.md | 3 pages created
+
+**Created**:
+- `wiki/JSON/JSON-JSONL.md` — JSON Lines 格式与 $schema 声明机制
+- `wiki/VSCode/Builtins.md` — JSON Schema 内置支持
+- `wiki/VSCode/Extensions.md` — AsciiDoc 扩展
+
+**Topic Logs**: [[JSON/_log]], [[VSCode/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/remote-desktop/ | 1 page created
 
 **Created**:
@@ -191,6 +202,7 @@
 - [[Linear-Algebra/_log]] — 线性代数操作日志
 - [[Dotnet/_log]] — .NET 平台操作日志
 - [[Go/_log]] — Go 语言操作日志
+- [[JSON/_log]] — JSON 数据格式操作日志
 - [[UE5/_log]] — Unreal Engine 5 操作日志
 
 ---

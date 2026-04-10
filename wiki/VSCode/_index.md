@@ -6,4 +6,6 @@
 
 ## Pages
 
+- [[Builtins]] — 内置功能：JSON Schema 配置
+- [[Extensions]] — 常用扩展：AsciiDoc
 - [[Key-Bindings]] — 按键处理优先级机制
