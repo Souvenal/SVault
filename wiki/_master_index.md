@@ -30,7 +30,11 @@
 - [[OpenCode/_index|OpenCode]] — 终端 AI 助手工具
 - [[PowerShell/_index|PowerShell]] — PowerShell 配置：mklink 软链接
 - [[PyTorch/_index|PyTorch]] — PyTorch 深度学习框架：CUDA 兼容性、sm 计算能力
+- [[Ray-Tracing/_index|Ray-Tracing]] — 光线追踪：Inline Ray Tracing、RayQuery 状态机
 - [[Remote-Desktop/_index|Remote-Desktop]] — 远程桌面方案：DIY 自建与商业软件
+- [[Shader-Languages/_index|Shader-Languages]] — GLSL/HLSL/Slang：线程变量、矩阵布局对比
+- [[Shader-Layout/_index|Shader-Layout]] — 着色器内存布局：std140、std430、scalar
+- [[SPIR-V/_index|SPIR-V]] — SPIR-V 编译器工具链：DXC、HLSLcc、编译流程
 - [[UE5/_index|UE5]] — Unreal Engine 5：渲染管线、线程模型、框架类
 - [[VSCode/_index|VSCode]] — VSCode 编辑器：按键优先级、配置技巧
 - [[xmake/_index|xmake]] — xmake 构建工具：命令、配置、构建

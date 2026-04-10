@@ -4,6 +4,19 @@
 
 ## Operations Log
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/Shading-Languages | 5 pages created
+
+**Created**:
+- `wiki/Shader-Languages/Thread-Variables.md` — GLSL/HLSL/Slang 线程变量对比表
+- `wiki/Shader-Languages/Matrix-Layout.md` — row/column major 矩阵布局、跨平台坑点
+- `wiki/SPIR-V/Compilers.md` — HLSLcc、D3DCompiler、DXC 编译器对比
+- `wiki/Shader-Layout/Memory-Layouts.md` — std140/std430/scalar 内存布局详解
+- `wiki/Ray-Tracing/Inline-Ray-Tracing.md` — Inline Ray Tracing、RayQuery 状态机
+
+**Topic Logs**: [[Shader-Languages/_log]], [[SPIR-V/_log]], [[Shader-Layout/_log]], [[Ray-Tracing/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | pytorch.md | 1 page created
 
 **Created**:
@@ -276,6 +289,10 @@
 - [[LaTeX/_log]] — LaTeX 排版系统操作日志
 - [[Lua/_log]] — Lua 语言操作日志
 - [[PyTorch/_log]] — PyTorch 深度学习框架日志
+- [[Ray-Tracing/_log]] — Ray-Tracing 光线追踪操作日志
+- [[Shader-Languages/_log]] — Shader-Languages 着色器语言操作日志
+- [[Shader-Layout/_log]] — Shader-Layout 内存布局操作日志
+- [[SPIR-V/_log]] — SPIR-V 编译器工具链日志
 - [[UE5/_log]] — Unreal Engine 5 操作日志
 
 ---
