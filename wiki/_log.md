@@ -25,10 +25,23 @@
 
 ---
 
+## [2025-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/node | 4 pages created
+
+**Created**:
+- `wiki/Nodejs/Nodejs.md` — JavaScript 运行时、调用非 JS 程序
+- `wiki/Nodejs/npm.md` — Node Package Manager
+- `wiki/Nodejs/npx.md` — npm package runner
+- `wiki/Nodejs/nvm.md` — Node Version Manager
+
+**Topic Log**: [[Nodejs/_log]]
+
+---
+
 ## Per-Topic Logs
 
 - [[Bitwarden/_log]] — Bitwarden CLI 使用笔记
 - [[Git/_log]] — Git 版本控制操作日志
+- [[Nodejs/_log]] — Node.js 生态操作日志
 
 ---
 
