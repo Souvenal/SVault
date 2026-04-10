@@ -20,6 +20,7 @@
 - [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理
 - [[Go/_index|Go]] — Go 语言：text/template 模板引擎
 - [[LiteLLM/_index|LiteLLM]] — 统一调用 100+ LLM API 的 Python SDK 和代理服务器
+- [[Lua/_index|Lua]] — Lua 语言：package 系统、require、模块加载
 - [[JSON/_index|JSON]] — JSON 数据格式：JSONL、$schema 声明
 - [[LaTeX/_index|LaTeX]] — LaTeX 文档排版系统：引擎、格式、宏包、中文支持
 - [[Linear-Algebra/_index|Linear-Algebra]] — 线性代数：t-SVD 分解、Kronecker 积

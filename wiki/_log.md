@@ -220,6 +220,15 @@
 
 ---
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/Lua | 1 page created
+
+**Created**:
+- `wiki/Lua/Lua-Package.md` — require、package.loaders、package.path 模块加载机制
+
+**Topic Log**: [[Lua/_log]]
+
+---
+
 ## Per-Topic Logs
 
 - [[C++/_log]] — C++ 语言操作日志
@@ -247,6 +256,7 @@
 - [[LiteLLM/_log]] — LiteLLM 操作日志
 - [[JSON/_log]] — JSON 数据格式操作日志
 - [[LaTeX/_log]] — LaTeX 排版系统操作日志
+- [[Lua/_log]] — Lua 语言操作日志
 - [[UE5/_log]] — Unreal Engine 5 操作日志
 
 ---
