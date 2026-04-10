@@ -23,6 +23,7 @@
 - [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理
 - [[Go/_index|Go]] — Go 语言：text/template 模板引擎
 - [[Homebrew/_index|Homebrew]] — macOS 包管理工具：Formula、Cask、keg-only
+- [[ISA/_index|ISA]] — 指令集架构：PAUSE 指令
 - [[JSON/_index|JSON]] — JSON 数据格式：JSONL、$schema 声明
 - [[LaTeX/_index|LaTeX]] — LaTeX 文档排版系统：引擎、格式、宏包、中文支持
 - [[Linear-Algebra/_index|Linear-Algebra]] — 线性代数：t-SVD 分解、Kronecker 积

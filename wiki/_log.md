@@ -4,6 +4,15 @@
 
 ## Operations Log
 
+## [2026-04-11] MIGRATE | ISA.md | 1 page migrated
+
+**Created**:
+- `wiki/ISA/PAUSE.md` — spin lock 中的 PAUSE 指令
+
+**Topic Log**: [[ISA/_log]]
+
+---
+
 ## [2026-04-11] MIGRATE | System/Android/ | 5 pages migrated
 
 **Created**:
