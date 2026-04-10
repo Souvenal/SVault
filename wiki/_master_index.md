@@ -10,9 +10,11 @@
 - [[Bitwarden/_index|Bitwarden]] — 密码管理器 CLI 工具、会话管理、安全机制
 - [[chezmoi/_index|chezmoi]] — 跨机器 dotfiles 同步工具
 - [[Claude-Code/_index|Claude-Code]] — Anthropic 官方终端 AI 编程助手
+- [[Differential-Geometry/_index|Differential-Geometry]] — 微分几何：参数化曲线、正则曲线
 - [[Docker/_index|Docker]] — 容器化技术：核心概念、常用命令
 - [[Fish/_index|Fish]] — Fish shell 配置：环境变量、bash 脚本兼容
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
+- [[Linear-Algebra/_index|Linear-Algebra]] — 线性代数：t-SVD 分解、Kronecker 积
 - [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理
 - [[Neovim/_index|Neovim]] — Neovim 编辑器：Lua 配置、插件系统、平台配置
 - [[Nix/_index|Nix]] — 函数式包管理器、nix-shell 临时环境

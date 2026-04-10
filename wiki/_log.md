@@ -4,6 +4,16 @@
 
 ## Operations Log
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Math/Math.md | 2 pages created
+
+**Created**:
+- `wiki/Linear-Algebra/t-SVD分解.md` — Kronecker 积的 10 个性质
+- `wiki/Differential-Geometry/参数化曲线.md` — 参数化曲线定义、曲线等价、正则曲线
+
+**Topic Logs**: [[Linear-Algebra/_log]], [[Differential-Geometry/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/shell | 3 pages created
 
 **Created**:
@@ -136,6 +146,8 @@
 - [[PowerShell/_log]] — PowerShell 配置日志
 - [[VSCode/_log]] — VSCode 编辑器操作日志
 - [[chezmoi/_log]] — chezmoi dotfiles 同步日志
+- [[Differential-Geometry/_log]] — 微分几何操作日志
+- [[Linear-Algebra/_log]] — 线性代数操作日志
 
 ---
 
