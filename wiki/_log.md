@@ -150,6 +150,21 @@
 
 ---
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/C++ | 7 pages created
+
+**Created**:
+- `wiki/C++/STL-Addressof.md` — std::addressof 获取真实地址
+- `wiki/C++/Initialization.md` — C++ 三种初始化类型
+- `wiki/C++/Const-Overload.md` — const 修饰符函数重载规则
+- `wiki/C++/Tag-Dispatch.md` — 编译期 tag dispatch 技术
+
+- `wiki/cmake/Basics.md` — 编译器、构建类型、生成器
+- `wiki/xmake/Commands.md` — xmake 命令
+
+**Topic Logs**: [[C++/_log]], [[cmake/_log]], [[xmake/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | dotnet.md | 1 page created
 
 **Created**:
@@ -183,6 +198,9 @@
 
 ## Per-Topic Logs
 
+- [[C++/_log]] — C++ 语言操作日志
+- [[cmake/_log]] — CMake 构建系统日志
+- [[xmake/_log]] — xmake 构建工具日志
 - [[Bash/_log]] — Bash shell 配置日志
 - [[Remote-Desktop/_log]] — 远程桌面方案日志
 - [[Bitwarden/_log]] — Bitwarden CLI 使用笔记
