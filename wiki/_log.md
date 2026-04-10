@@ -139,6 +139,15 @@
 
 ---
 
+## [2026-04-10] MIGRATE | dotnet.md | 1 page created
+
+**Created**:
+- `wiki/Dotnet/IDisposable.md` — 显式释放非托管资源的接口
+
+**Topic Log**: [[Dotnet/_log]]
+
+---
+
 ## Per-Topic Logs
 
 - [[Bash/_log]] — Bash shell 配置日志
@@ -158,6 +167,7 @@
 - [[chezmoi/_log]] — chezmoi dotfiles 同步日志
 - [[Differential-Geometry/_log]] — 微分几何操作日志
 - [[Linear-Algebra/_log]] — 线性代数操作日志
+- [[Dotnet/_log]] — .NET 平台操作日志
 
 ---
 

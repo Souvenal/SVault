@@ -13,6 +13,7 @@
 - [[Claude-Code/_index|Claude-Code]] — Anthropic 官方终端 AI 编程助手
 - [[Differential-Geometry/_index|Differential-Geometry]] — 微分几何：参数化曲线、正则曲线
 - [[Docker/_index|Docker]] — 容器化技术：核心概念、常用命令
+- [[Dotnet/_index|Dotnet]] — .NET 平台：IDisposable、资源释放
 - [[Fish/_index|Fish]] — Fish shell 配置：环境变量、bash 脚本兼容
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
 - [[Linear-Algebra/_index|Linear-Algebra]] — 线性代数：t-SVD 分解、Kronecker 积
