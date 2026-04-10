@@ -8,9 +8,9 @@
 
 - [[Bash/_index|Bash]] — Bash shell 配置：bash_profile vs bashrc
 - [[Bitwarden/_index|Bitwarden]] — 密码管理器 CLI 工具、会话管理、安全机制
+- [[C++/_index|C++]] — C++ 语言：STL、初始化、const 重载、Tag Dispatch
 - [[chezmoi/_index|chezmoi]] — 跨机器 dotfiles 同步工具
 - [[Claude-Code/_index|Claude-Code]] — Anthropic 官方终端 AI 编程助手
-- [[C++/_index|C++]] — C++ 语言：STL、初始化、const 重载、Tag Dispatch
 - [[cmake/_index|cmake]] — CMake 构建系统：编译器、构建类型、生成器
 - [[Differential-Geometry/_index|Differential-Geometry]] — 微分几何：参数化曲线、正则曲线
 - [[Docker/_index|Docker]] — 容器化技术：核心概念、常用命令
@@ -19,11 +19,11 @@
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
 - [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理
 - [[Go/_index|Go]] — Go 语言：text/template 模板引擎
-- [[LiteLLM/_index|LiteLLM]] — 统一调用 100+ LLM API 的 Python SDK 和代理服务器
-- [[Lua/_index|Lua]] — Lua 语言：package 系统、require、模块加载
 - [[JSON/_index|JSON]] — JSON 数据格式：JSONL、$schema 声明
 - [[LaTeX/_index|LaTeX]] — LaTeX 文档排版系统：引擎、格式、宏包、中文支持
 - [[Linear-Algebra/_index|Linear-Algebra]] — 线性代数：t-SVD 分解、Kronecker 积
+- [[LiteLLM/_index|LiteLLM]] — 统一调用 100+ LLM API 的 Python SDK 和代理服务器
+- [[Lua/_index|Lua]] — Lua 语言：package 系统、require、模块加载
 - [[Neovim/_index|Neovim]] — Neovim 编辑器：Lua 配置、插件系统、平台配置
 - [[Nix/_index|Nix]] — 函数式包管理器、nix-shell 临时环境
 - [[Nodejs/_index|Nodejs]] — JavaScript 运行时、npm/npx、版本管理
@@ -35,6 +35,7 @@
 - [[Remote-Desktop/_index|Remote-Desktop]] — 远程桌面方案：DIY 自建与商业软件
 - [[Shader-Languages/_index|Shader-Languages]] — GLSL/HLSL/Slang：线程变量、矩阵布局对比
 - [[Shader-Layout/_index|Shader-Layout]] — 着色器内存布局：std140、std430、scalar
+- [[Software-Testing/_index|Software-Testing]] — 软件测试技术：符号执行、KLEE
 - [[SPIR-V/_index|SPIR-V]] — SPIR-V 编译器工具链：DXC、HLSLcc、编译流程
 - [[UE5/_index|UE5]] — Unreal Engine 5：渲染管线、线程模型、框架类
 - [[VSCode/_index|VSCode]] — VSCode 编辑器：按键优先级、配置技巧

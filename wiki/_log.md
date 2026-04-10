@@ -280,8 +280,18 @@
 
 ---
 
+## [2026-04-10] MIGRATE | Software/Testing.md | 1 pages migrated
+
+**Created**:
+- `wiki/Software-Testing/符号执行.md` — 符号执行技术与 KLEE 工具介绍
+
+**Topic Log**: [[Software-Testing/_log]]
+
+---
+
 ## Per-Topic Logs
 
+- [[Software-Testing/_log]] — Software Testing operation log
 - [[C++/_log]] — C++ 语言操作日志
 - [[cmake/_log]] — CMake 构建系统日志
 - [[xmake/_log]] — xmake 构建工具日志
