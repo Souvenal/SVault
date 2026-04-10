@@ -37,6 +37,7 @@
 - [[SPIR-V/_index|SPIR-V]] — SPIR-V 编译器工具链：DXC、HLSLcc、编译流程
 - [[UE5/_index|UE5]] — Unreal Engine 5：渲染管线、线程模型、框架类
 - [[VSCode/_index|VSCode]] — VSCode 编辑器：按键优先级、配置技巧
+- [[vcpkg/_index|vcpkg]] — C++ 包管理工具：依赖库管理、常用命令
 - [[xmake/_index|xmake]] — xmake 构建工具：命令、配置、构建
 
 ---

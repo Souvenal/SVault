@@ -260,6 +260,16 @@
 
 ---
 
+## [2026-04-10] MIGRATE | C++开发踩坑.md | 2 pages created
+
+**Created**:
+- `wiki/C++/移动语义.md` — 析构函数中指针释放的移动语义处理
+- `wiki/vcpkg/命令.md` — vcpkg x-update-baseline 命令
+
+**Topic Logs**: [[C++/_log]], [[vcpkg/_log]]
+
+---
+
 ## Per-Topic Logs
 
 - [[C++/_log]] — C++ 语言操作日志
@@ -294,6 +304,7 @@
 - [[Shader-Layout/_log]] — Shader-Layout 内存布局操作日志
 - [[SPIR-V/_log]] — SPIR-V 编译器工具链日志
 - [[UE5/_log]] — Unreal Engine 5 操作日志
+- [[vcpkg/_log]] — vcpkg C++ 包管理工具日志
 
 ---
 
