@@ -1,3 +1,5 @@
+## [2026-04-11] RENAME | Initialization.md → 内存布局.md | merged with alignas
+
 ## [2026-04-10] MIGRATE | C++开发踩坑.md | 2 pages created
 
 **Created**:

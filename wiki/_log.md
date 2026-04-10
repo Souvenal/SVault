@@ -4,6 +4,32 @@
 
 ## Operations Log
 
+## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/Render/ | 4 pages migrated
+
+**Created**:
+- `wiki/Color-Space/Gamma.md` — Gamma 校正、sRGB 格式、Mipmap 问题
+- `wiki/PBR/BRDF.md` — 能量守恒、微表面模型、GGX、Fresnel 近似
+- `wiki/Profile/Mobile-GPU.md` — ARM Mali、Qualcomm Adreno 性能工具
+
+**Updated**:
+- `wiki/Shader-Layout/Memory-Layouts.md` — 新增移动端 scalar 布局踩坑记录
+
+**Topic Logs**: [[Color-Space/_log]], [[PBR/_log]], [[Profile/_log]], [[Shader-Layout/_log]]
+
+---
+
+## [2026-04-11] RENAME | C++/Initialization.md → 内存布局.md | merged with alignas
+
+**Created**:
+- `wiki/C++/内存布局.md` — 初始化类型、对齐控制 alignas
+
+**Deleted**:
+- `wiki/C++/Initialization.md` — 已合并
+
+**Topic Log**: [[C++/_log]]
+
+---
+
 ## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/Render/Engine/Unity | 3 pages migrated
 
 **Created**:

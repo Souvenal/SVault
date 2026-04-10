@@ -12,6 +12,7 @@
 - [[chezmoi/_index|chezmoi]] — 跨机器 dotfiles 同步工具
 - [[Claude-Code/_index|Claude-Code]] — Anthropic 官方终端 AI 编程助手
 - [[cmake/_index|cmake]] — CMake 构建系统：编译器、构建类型、生成器
+- [[Color-Space/_index|Color-Space]] — 色彩空间：Gamma 校正、sRGB
 - [[Differential-Geometry/_index|Differential-Geometry]] — 微分几何：参数化曲线、正则曲线
 - [[Docker/_index|Docker]] — 容器化技术：核心概念、常用命令
 - [[Dotnet/_index|Dotnet]] — .NET 平台：IDisposable、资源释放
@@ -28,12 +29,14 @@
 - [[Nix/_index|Nix]] — 函数式包管理器、nix-shell 临时环境
 - [[Nodejs/_index|Nodejs]] — JavaScript 运行时、npm/npx、版本管理
 - [[OpenCode/_index|OpenCode]] — 终端 AI 助手工具
+- [[PBR/_index|PBR]] — 基于物理的渲染：BRDF、微表面模型
 - [[PowerShell/_index|PowerShell]] — PowerShell 配置：mklink 软链接
+- [[Profile/_index|Profile]] — 图形性能分析：移动端 GPU 调试工具
 - [[Protocol/_index|Protocol]] — 网络协议与通信协议
 - [[PyTorch/_index|PyTorch]] — PyTorch 深度学习框架：CUDA 兼容性、sm 计算能力
-- [[Rendering-Pipeline/_index|Rendering-Pipeline]] — 渲染管线通用概念：Depth-Testing、Fixed-Function-Stages
 - [[Ray-Tracing/_index|Ray-Tracing]] — 光线追踪：Inline Ray Tracing、RayQuery 状态机
 - [[Remote-Desktop/_index|Remote-Desktop]] — 远程桌面方案：DIY 自建与商业软件
+- [[Rendering-Pipeline/_index|Rendering-Pipeline]] — 渲染管线通用概念：Depth-Testing、Fixed-Function-Stages
 - [[Shader-Languages/_index|Shader-Languages]] — GLSL/HLSL/Slang：线程变量、矩阵布局对比
 - [[Shader-Layout/_index|Shader-Layout]] — 着色器内存布局：std140、std430、scalar
 - [[Software-Testing/_index|Software-Testing]] — 软件测试技术：符号执行、KLEE
