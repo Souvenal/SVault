@@ -9,3 +9,4 @@
 - [[Git-基础操作]] — 通用配置、fetch/switch/branch、checkout、diff、reflog
 - [[Git-Worktree]] — 多工作目录管理
 - [[Git-技巧]] — file modes、多身份配置等实用技巧
+- [[Git-GPG签名]] — 使用 GPG 对提交签名、GitHub 配置

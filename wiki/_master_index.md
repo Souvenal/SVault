@@ -11,6 +11,7 @@
 - [[Claude-Code/_index|Claude-Code]] — Anthropic 官方终端 AI 编程助手
 - [[Docker/_index|Docker]] — 容器化技术：核心概念、常用命令
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
+- [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理
 - [[Neovim/_index|Neovim]] — Neovim 编辑器：Lua 配置、插件系统、平台配置
 - [[Nodejs/_index|Nodejs]] — JavaScript 运行时、npm/npx、版本管理
 - [[OpenCode/_index|OpenCode]] — 终端 AI 助手工具
