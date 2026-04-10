@@ -7,3 +7,4 @@
 ## Pages
 
 - [[Nix]] — 安装入门、nix-shell 临时环境、垃圾清理
+- [[Nix-language]] — Nix 语言：表达式、函数、惰性求值、非纯函数

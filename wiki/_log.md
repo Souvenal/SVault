@@ -69,6 +69,15 @@
 
 ---
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/Nix | 1 page created
+
+**Created**:
+- `wiki/Nix/Nix-language.md` — Nix 语言：表达式、函数、惰性求值、非纯函数
+
+**Topic Log**: [[Nix/_log]]
+
+---
+
 ## [2026-04-10] MIGRATE | chezmoi.md | 1 page created
 
 **Created**:

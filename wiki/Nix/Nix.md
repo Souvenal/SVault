@@ -30,3 +30,7 @@ nix-shell -p git --run "git --version"
 ```shell
 nix-collect-garbage
 ```
+
+---
+
+相关：[[Nix-language]] — Nix 语言：表达式、函数、惰性求值
