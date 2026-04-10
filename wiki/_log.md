@@ -139,6 +139,15 @@
 
 ---
 
+## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/AI/Code-Agent.md | 1 page created
+
+**Created**:
+- `wiki/LiteLLM/LiteLLM.md` — 统一调用 100+ LLM API 的 Python SDK 和代理服务器
+
+**Topic Log**: [[LiteLLM/_log]]
+
+---
+
 ## [2026-04-10] UPDATE | Git-GPG签名 | 1 page created
 
 **Created**:
@@ -220,6 +229,7 @@
 - [[Linear-Algebra/_log]] — 线性代数操作日志
 - [[Dotnet/_log]] — .NET 平台操作日志
 - [[Go/_log]] — Go 语言操作日志
+- [[LiteLLM/_log]] — LiteLLM 操作日志
 - [[JSON/_log]] — JSON 数据格式操作日志
 - [[UE5/_log]] — Unreal Engine 5 操作日志
 

@@ -19,6 +19,7 @@
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
 - [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理
 - [[Go/_index|Go]] — Go 语言：text/template 模板引擎
+- [[LiteLLM/_index|LiteLLM]] — 统一调用 100+ LLM API 的 Python SDK 和代理服务器
 - [[JSON/_index|JSON]] — JSON 数据格式：JSONL、$schema 声明
 - [[Linear-Algebra/_index|Linear-Algebra]] — 线性代数：t-SVD 分解、Kronecker 积
 - [[Neovim/_index|Neovim]] — Neovim 编辑器：Lua 配置、插件系统、平台配置
