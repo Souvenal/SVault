@@ -15,6 +15,13 @@
 
 ---
 
+## [2026-04-14] MIGRATE | git-crlf-note.md | 1 page created
+
+**Created**:
+- `wiki/Git/CRLF-换行符配置.md` — core.autocrlf 三种模式与跨平台同步策略
+
+---
+
 ## [2026-04-10] UPDATE | Git-GPG签名.md | 1 page created
 
 **Created**:

@@ -11,6 +11,7 @@
 - [[Bash/_index|Bash]] — Bash shell 配置：bash_profile vs bashrc
 - [[Bitwarden/_index|Bitwarden]] — 密码管理器 CLI 工具、会话管理、安全机制
 - [[C++/_index|C++]] — C++ 语言：STL、初始化、const 重载、Tag Dispatch
+- [[Character-Encoding/_index|Character-Encoding]] — 字符集、编码方案、文本格式
 - [[chezmoi/_index|chezmoi]] — 跨机器 dotfiles 同步工具
 - [[Claude-Code/_index|Claude-Code]] — Anthropic 官方终端 AI 编程助手
 - [[cmake/_index|cmake]] — CMake 构建系统：编译器、构建类型、生成器

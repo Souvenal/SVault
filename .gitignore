@@ -4,6 +4,7 @@
 
 # agents
 .sisyphus
+.codebuddy
 
 ## Buffer Directory
 # Temporary inbox for unprocessed content - NEVER commit

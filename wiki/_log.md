@@ -4,6 +4,39 @@
 
 ## Operations Log
 
+## [2026-04-14] MIGRATE | git-crlf-note.md | 1 page migrated
+
+**Created**:
+- `wiki/Git/CRLF-换行符配置.md` — core.autocrlf 三种模式与跨平台同步策略
+
+**Topic Log**: [[Git/_log]]
+
+---
+
+## [2026-04-14] MIGRATE | git-crlf-note.md | 1 page migrated
+
+**Created**:
+- `wiki/Git/CRLF-换行符配置.md` — core.autocrlf 三种模式与跨平台同步策略
+
+**Topic Log**: [[Git/_log]]
+
+---
+
+## [2026-04-14] CREATE | Character-Encoding topic | 1 page created
+
+**Created**:
+- `wiki/Character-Encoding/换行符.md` — CR、LF、CRLF 换行符定义与系统差异（从 Git/CRLF-换行符配置.md 拆出）
+
+**Updated**:
+- `wiki/Git/CRLF-换行符配置.md` — 移除换行符基础概念，改为链接到 Character-Encoding
+
+**Cross-links**:
+- CRLF-换行符配置.md ↔ 换行符.md
+
+**Topic Logs**: [[Character-Encoding/_log]], [[Git/_log]]
+
+---
+
 ## [2026-04-11] MIGRATE | ISA.md | 1 page migrated
 
 **Created**:
