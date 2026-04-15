@@ -3,6 +3,7 @@
 .obsidian/workspace.json
 
 # agents
+.agents/plans
 .sisyphus
 
 ## Buffer Directory
