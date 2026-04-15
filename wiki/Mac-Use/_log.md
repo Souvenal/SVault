@@ -6,6 +6,13 @@ macOS 系统使用操作日志。
 
 ## 操作日志
 
+## [2026-04-12] COMPILE | Xcode Simulator Ghost Runtime | 1 page created
+
+**Created**:
+- `wiki/Mac-Use/Xcode-Simulator-Ghost-Runtime.md` — Xcode 15.3+ 幽灵运行时删除问题
+
+---
+
 ## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/System/Mac.md | 3 pages migrated
 
 **Created**:

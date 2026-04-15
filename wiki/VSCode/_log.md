@@ -16,3 +16,10 @@
 **Created**:
 - Builtins.md — JSON Schema 内置支持
 - Extensions.md — AsciiDoc 扩展
+
+---
+
+## [2026-04-12] COMPILE | VS Code 清理笔记 | 1 page created
+
+**Created**:
+- Cleanup.md — macOS 磁盘清理

@@ -28,3 +28,12 @@
 - `wiki/Git/Git-GPG签名.md` — 使用 GPG 对提交签名、GitHub 配置
 
 **Cross-links**: [[GPG/pinentry]]
+
+---
+
+## [2026-04-16] QUERY | Git Symlink 多端同步 | 1 page created
+
+**Created**:
+- `wiki/Git/Git-Symlink-支持.md` — 原生符号链接支持与跨平台配置
+
+**Context**: 用户在 `.agents/skills/` 和 `.codebuddy/skills/` 维护两份相同 skills 文件，通过 git symlink 实现单一数据源 + 多端同步。

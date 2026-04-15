@@ -4,6 +4,15 @@
 
 ## Operations Log
 
+## [2026-04-15] COMPILE | 豆包对话 lldb-dap | 1 page created
+
+**Created**:
+- `wiki/LLDB/lldb-dap.md` — LLDB 的 DAP 实现：从 lldb-vscode 到 lldb-dap 演进、DAP 工作流程、DAP 与 LSP 关系
+
+**Topic Log**: [[LLDB/_log]]
+
+---
+
 ## [2026-04-14] MIGRATE | git-crlf-note.md | 1 page migrated
 
 **Created**:
@@ -460,6 +469,24 @@
 
 ---
 
+## [2026-04-12] COMPILE | Xcode Simulator Ghost Runtime | 1 page created
+
+**Created**:
+- `wiki/Mac-Use/Xcode-Simulator-Ghost-Runtime.md` — Xcode 15.3+ 幽灵运行时删除问题
+
+**Topic Log**: [[Mac-Use/_log]]
+
+---
+
+## [2026-04-12] COMPILE | VS Code 清理笔记 | 1 page created
+
+**Created**:
+- `wiki/VSCode/Cleanup.md` — macOS 磁盘清理
+
+**Topic Log**: [[VSCode/_log]]
+
+---
+
 ## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/System/Mac.md | 3 pages migrated
 
 **Created**:
@@ -497,6 +524,7 @@
 ## Per-Topic Logs
 
 - [[Homebrew/_log]] — Homebrew 包管理工具日志
+- [[LLDB/_log]] — LLDB 调试器操作日志
 - [[Mac-Use/_log]] — macOS 系统使用操作日志
 - [[Software-Testing/_log]] — Software Testing operation log
 - [[C++/_log]] — C++ 语言操作日志

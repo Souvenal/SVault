@@ -11,3 +11,4 @@
 - [[Git-技巧]] — file modes、多身份配置等实用技巧
 - [[Git-GPG签名]] — 使用 GPG 对提交签名、GitHub 配置
 - [[CRLF-换行符配置]] — core.autocrlf 三种模式与跨平台同步策略
+- [[Git-Symlink-支持]] — 原生符号链接支持与跨平台配置
