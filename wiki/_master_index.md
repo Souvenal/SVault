@@ -7,6 +7,7 @@
 ## Knowledge Topics
 
 - [[Agent-Browser/_index|Agent-Browser]] — AI Agent 专用浏览器自动化工具（Vercel Labs），Snapshot+Refs 工作流
+- [[Agent-Memory/_index|Agent-Memory]] — AI 编程工具长期记忆与规则配置体系对比
 - [[Android-Dev/_index|Android-Dev]] — Android 平台开发相关笔记
 - [[Android-Use/_index|Android-Use]] — Android 系统使用相关笔记
 - [[Bash/_index|Bash]] — Bash shell 配置：bash_profile vs bashrc

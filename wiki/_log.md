@@ -4,6 +4,35 @@
 
 ## Operations Log
 
+## [2026-04-16] QUERY | 大代码库开发防造轮子调研 | 1 page created
+
+**Created**:
+- `wiki/Agent-Memory/大代码库开发防造轮子.md` — AI Agent 避免造轮子的五大策略与用户级规则模板
+
+**Cross-links**:
+- 大代码库开发防造轮子.md ↔ 记忆功能对比.md
+- 大代码库开发防造轮子.md ↔ 用户级配置指南.md
+- 大代码库开发防造轮子.md ↔ Claude-Code/Claude-Code.md
+
+**Topic Log**: [[Agent-Memory/_log]]
+
+---
+
+## [2026-04-16] QUERY | Agent 记忆功能调研 | 2 pages created
+
+**Created**:
+- `wiki/Agent-Memory/记忆功能对比.md` — 六款工具记忆功能横向对比分析
+- `wiki/Agent-Memory/用户级配置指南.md` — 跨项目个人偏好注入实践
+
+**Cross-links**:
+- 记忆功能对比.md ↔ Claude-Code/Claude-Code.md
+- 记忆功能对比.md ↔ OpenCode/OpenCode.md
+- 用户级配置指南.md ↔ 记忆功能对比.md
+
+**Topic Log**: [[Agent-Memory/_log]]
+
+---
+
 ## [2026-04-16] MIGRATE | buffer/agent-browser.md | 2 pages created
 
 **Created**:
@@ -536,6 +565,7 @@
 
 ## Per-Topic Logs
 
+- [[Agent-Memory/_log]] — Agent Memory 记忆功能调研日志
 - [[Homebrew/_log]] — Homebrew 包管理工具日志
 - [[LLDB/_log]] — LLDB 调试器操作日志
 - [[Mac-Use/_log]] — macOS 系统使用操作日志
