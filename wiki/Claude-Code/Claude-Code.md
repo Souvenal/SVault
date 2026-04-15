@@ -4,6 +4,12 @@ Anthropic 官方终端 AI 编程助手。
 
 ---
 
+## 浏览器自动化
+
+Claude Code 可配合 [[Agent-Browser/Agent-Browser|agent-browser]] 实现浏览器自动化操作——打开页面、获取快照、通过 ref 点击/填充元素。
+
+---
+
 ## 使用
 
 ### 继续对话
