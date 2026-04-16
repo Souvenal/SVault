@@ -1,5 +1,12 @@
 # Windows-Use Operation Log
 
+## [2026-04-16] MIGRATE | 环境变量的坑.md | 1 page created
+
+**Created**:
+- `环境变量继承.md` — 子进程继承父进程环境变量快照，长驻程序需重启才能刷新
+
+---
+
 ## [2026-04-11] MIGRATE | Windows.md, Defender.md, Tips.md | 4 pages created
 
 **Created**:

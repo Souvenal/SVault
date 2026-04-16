@@ -4,6 +4,18 @@
 
 ## Operations Log
 
+## [2026-04-16] MIGRATE | 环境变量的坑.md | 1 page created
+
+**Created**:
+- `wiki/Windows-Use/环境变量继承.md` — 子进程继承父进程环境变量快照，长驻程序需重启才能刷新
+
+**Cross-links**:
+- 环境变量继承.md ↔ PowerShell/mklink.md
+
+**Topic Log**: [[Windows-Use/_log]]
+
+---
+
 ## [2026-04-16] QUERY | 大代码库开发防造轮子调研 | 1 page created
 
 **Created**:
