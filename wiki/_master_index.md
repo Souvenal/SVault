@@ -11,6 +11,7 @@
 - [[Android-Dev/_index|Android-Dev]] — Android 平台开发相关笔记
 - [[Android-Use/_index|Android-Use]] — Android 系统使用相关笔记
 - [[Bash/_index|Bash]] — Bash shell 配置：bash_profile vs bashrc
+- [[Clash/_index|Clash]] — Clash 代理工具：系统代理模式、PAC 与全局模式
 - [[Bitwarden/_index|Bitwarden]] — 密码管理器 CLI 工具、会话管理、安全机制
 - [[C++/_index|C++]] — C++ 语言：STL、初始化、const 重载、Tag Dispatch
 - [[Character-Encoding/_index|Character-Encoding]] — 字符集、编码方案、文本格式
@@ -38,6 +39,7 @@
 - [[Mac-Dev/_index|Mac-Dev]] — macOS 平台开发相关笔记
 - [[Mac-Use/_index|Mac-Use]] — macOS 系统使用相关笔记
 - [[Neovim/_index|Neovim]] — Neovim 编辑器：Lua 配置、插件系统、平台配置
+- [[Network/_index|Network]] — 网络基础知识：常见 IP 地址段与用途
 - [[Nix/_index|Nix]] — 函数式包管理器、nix-shell 临时环境
 - [[Nodejs/_index|Nodejs]] — JavaScript 运行时、npm/npx、版本管理
 - [[OpenCode/_index|OpenCode]] — 终端 AI 助手工具

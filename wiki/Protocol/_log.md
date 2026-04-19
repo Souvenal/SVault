@@ -1,9 +1,12 @@
-# Protocol
+# Protocol Operation Log
 
-网络协议与通信协议。
+## [2026-04-20] MIGRATE | windows-proxy-settings.md | 2 pages created
+
+**Created**:
+- `WPAD.md` — 网络代理自动发现协议（DHCP/DNS 查询、安全风险）
+- `PAC.md` — 代理自动配置脚本（FindProxyForURL 规范、跨平台支持）
+
+**Cross-links**:
+- WPAD.md ↔ PAC.md
 
 ---
-
-## Pages
-
-- [[TLS]] — TLS 握手流程、SNI 扩展

@@ -1,5 +1,18 @@
 # Windows-Use Operation Log
 
+## [2026-04-20] MIGRATE | windows-proxy-settings.md | 1 page created
+
+**Created**:
+- `代理设置.md` — Windows 三种代理模式对比、PAC 脚本配置、环境变量代理
+
+**Cross-links**:
+- 代理设置.md ↔ Protocol/PAC.md
+- 代理设置.md ↔ Protocol/WPAD.md
+- 代理设置.md ↔ Clash/系统代理模式.md
+- 代理设置.md ↔ Network/常见IP段.md
+
+---
+
 ## [2026-04-16] MIGRATE | 环境变量的坑.md | 1 page created
 
 **Created**:

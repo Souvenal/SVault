@@ -4,6 +4,27 @@
 
 ## Operations Log
 
+## [2026-04-20] MIGRATE | windows-proxy-settings.md | 5 pages created
+
+**Created**:
+- `wiki/Protocol/WPAD.md` — 网络代理自动发现协议（DHCP/DNS 查询、安全风险）
+- `wiki/Protocol/PAC.md` — 代理自动配置脚本（FindProxyForURL 规范、跨平台支持）
+- `wiki/Windows-Use/代理设置.md` — Windows 三种代理模式对比、PAC 脚本配置、环境变量代理
+- `wiki/Clash/系统代理模式.md` — 系统代理开关原理、PAC 模式 vs 全局模式、TUN 模式
+- `wiki/Network/常见IP段.md` — 回环地址、RFC 1918 私有地址、链路本地地址及用途
+
+**Cross-links**:
+- WPAD.md ↔ PAC.md
+- PAC.md ↔ Windows-Use/代理设置.md
+- PAC.md ↔ Clash/系统代理模式.md
+- PAC.md ↔ Network/常见IP段.md
+- Windows-Use/代理设置.md ↔ Clash/系统代理模式.md
+- Windows-Use/代理设置.md ↔ Network/常见IP段.md
+
+**Topic Logs**: [[Protocol/_log]], [[Windows-Use/_log]], [[Clash/_log]], [[Network/_log]]
+
+---
+
 ## [2026-04-16] MIGRATE | 环境变量的坑.md | 1 page created
 
 **Created**:
@@ -45,7 +66,7 @@
 
 ---
 
-## [2026-04-16] MIGRATE | buffer/agent-browser.md | 2 pages created
+## [2026-04-16] MIGRATE | agent-browser.md | 2 pages created
 
 **Created**:
 - `wiki/Agent-Browser/Agent-Browser.md` — 工具概述、架构、Snapshot+Refs 核心工作流、AI 集成、方案对比
@@ -175,7 +196,7 @@
 
 ---
 
-## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/Render/Engine/Unity | 3 pages migrated
+## [2026-04-11] MIGRATE | Obsidian/Archive/Render/Engine/Unity | 3 pages migrated
 
 **Created**:
 - `wiki/Unity/GfxDevice.md` — 底层渲染架构：GfxDeviceXXX 层次结构、资源管理机制
@@ -195,7 +216,7 @@
 
 ---
 
-## [2026-04-11] MIGRATE | buffer/Vulkan/ | 9 pages migrated
+## [2026-04-11] MIGRATE | Vulkan/ | 9 pages migrated
 
 **Created**:
 - `wiki/Vulkan/Depth-Testing.md` — 深度测试不写入的 8 种场景
@@ -223,7 +244,7 @@
 
 ---
 
-## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/Render/Vulkan | 7 pages migrated
+## [2026-04-11] MIGRATE | Obsidian/Archive/Render/Vulkan | 7 pages migrated
 
 **Created**:
 - `wiki/Vulkan/Descriptor.md` — Descriptor Set 生命周期与 Bindless
@@ -238,7 +259,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/Shading-Languages | 5 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Coding/Languages/Shading-Languages | 5 pages created
 
 **Created**:
 - `wiki/Shader-Languages/Thread-Variables.md` — GLSL/HLSL/Slang 线程变量对比表
@@ -260,7 +281,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/LaTeX | 7 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Coding/Languages/LaTeX | 7 pages created
 
 **Created**:
 - `wiki/LaTeX/LaTeX-架构.md` — 三层架构：引擎、格式、发行版
@@ -275,7 +296,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Data/file-format.md | 3 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Data/file-format.md | 3 pages created
 
 **Created**:
 - `wiki/JSON/JSON-JSONL.md` — JSON Lines 格式与 $schema 声明机制
@@ -286,7 +307,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/remote-desktop/ | 1 page created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Applications/remote-desktop/ | 1 page created
 
 **Created**:
 - `wiki/Remote-Desktop/远程桌面方案.md` — Sunshine/Moonlight 自建方案与 UU 远程商业方案
@@ -295,7 +316,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Math/Math.md | 2 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Math/Math.md | 2 pages created
 
 **Created**:
 - `wiki/Linear-Algebra/t-SVD分解.md` — Kronecker 积的 10 个性质
@@ -305,7 +326,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/shell | 3 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Applications/shell | 3 pages created
 
 **Created**:
 - `wiki/Bash/bash-profile-vs-bashrc.md` — .bash_profile 与 .bashrc 的执行时机、职责分工
@@ -316,7 +337,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/nix | 1 page created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Applications/nix | 1 page created
 
 **Created**:
 - `wiki/Nix/Nix.md` — 安装入门、nix-shell 临时环境、垃圾清理
@@ -325,7 +346,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/Nix | 1 page created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Coding/Languages/Nix | 1 page created
 
 **Created**:
 - `wiki/Nix/Nix-language.md` — Nix 语言：表达式、函数、惰性求值、非纯函数
@@ -343,7 +364,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/agents | 3 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Applications/agents | 3 pages created
 
 **Created**:
 - `wiki/OpenCode/OpenCode.md` — 安装、API 配置、键位绑定
@@ -364,7 +385,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/git/ | 3 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Applications/git/ | 3 pages created
 
 **Created**:
 - `wiki/Git/Git-基础操作.md` — 通用配置、fetch/switch/branch、checkout、diff、reflog
@@ -375,7 +396,7 @@
 
 ---
 
-## [2025-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/node | 4 pages created
+## [2025-04-10] MIGRATE | Obsidian/Archive/Applications/node | 4 pages created
 
 **Created**:
 - `wiki/Nodejs/Nodejs.md` — JavaScript 运行时、调用非 JS 程序
@@ -387,7 +408,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/docker | 2 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Applications/docker | 2 pages created
 
 **Created**:
 - `wiki/Docker/核心概念.md` — Image、Container、Dockerfile、Repository 四大核心实体
@@ -397,7 +418,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/editors | 5 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Applications/editors | 5 pages created
 
 **Created**:
 - `wiki/VSCode/Key-Bindings.md` — 按键优先级机制
@@ -410,7 +431,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/gpg | 1 page created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Applications/gpg | 1 page created
 
 **Created**:
 - `wiki/GPG/pinentry.md` — GPG 密码输入程序：工作流程、平台差异、实现对比
@@ -419,7 +440,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/AI/Code-Agent.md | 1 page created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Coding/AI/Code-Agent.md | 1 page created
 
 **Created**:
 - `wiki/LiteLLM/LiteLLM.md` — 统一调用 100+ LLM API 的 Python SDK 和代理服务器
@@ -439,7 +460,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/C++ | 7 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Coding/Languages/C++ | 7 pages created
 
 **Created**:
 - `wiki/C++/STL-Addressof.md` — std::addressof 获取真实地址
@@ -463,7 +484,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/go/text-template.md | 1 page created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Coding/Languages/go/text-template.md | 1 page created
 
 **Created**:
 - `wiki/Go/text-template.md` — text/template 包 quote 函数用法
@@ -472,7 +493,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Applications/UE5/ | 5 pages created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Applications/UE5/ | 5 pages created
 
 **Created**:
 - `wiki/UE5/线程模型.md` — Game Thread 与 Render Thread 双线程架构
@@ -485,7 +506,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Coding/Languages/Lua | 1 page created
+## [2026-04-10] MIGRATE | Obsidian/Archive/Coding/Languages/Lua | 1 page created
 
 **Created**:
 - `wiki/Lua/Lua-Package.md` — require、package.loaders、package.path 模块加载机制
@@ -504,7 +525,7 @@
 
 ---
 
-## [2026-04-10] MIGRATE | buffer/Obsidian/Archive/Network/Protocol | 2 pages migrated
+## [2026-04-10] MIGRATE | Obsidian/Archive/Network/Protocol | 2 pages migrated
 
 **Created**:
 - `wiki/Protocol/TLS.md` — TLS 握手流程、SNI 扩展
@@ -541,7 +562,7 @@
 
 ---
 
-## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/System/Mac.md | 3 pages migrated
+## [2026-04-11] MIGRATE | Obsidian/Archive/System/Mac.md | 3 pages migrated
 
 **Created**:
 - `wiki/Mac-Use/Mac-启动项管理.md` — launchctl、LaunchAgents、LaunchDaemons 启动项管理
@@ -552,7 +573,7 @@
 
 ---
 
-## [2026-04-11] MIGRATE | buffer/Obsidian/Archive/System/Windows/ | 5 pages migrated
+## [2026-04-11] MIGRATE | Obsidian/Archive/System/Windows/ | 5 pages migrated
 
 **Created**:
 - `wiki/Windows-Dev/Windows-rc-资源文件.md` — VERSIONINFO 资源文件结构与字段说明
@@ -594,6 +615,7 @@
 - [[Git/_log]] — Git 版本控制操作日志
 - [[GPG/_log]] — GnuPG 加密签名日志
 - [[Neovim/_log]] — Neovim 编辑器操作日志
+- [[Network/_log]] — 网络基础知识操作日志
 - [[Nix/_log]] — Nix 包管理器操作日志
 - [[Nodejs/_log]] — Node.js 生态操作日志
 - [[OpenCode/_log]] — OpenCode CLI 操作日志
@@ -602,6 +624,7 @@
 - [[VSCode/_log]] — VSCode 编辑器操作日志
 - [[Web/_log]] — Web 相关技术日志
 - [[chezmoi/_log]] — chezmoi dotfiles 同步日志
+- [[Clash/_log]] — Clash 代理工具操作日志
 - [[Differential-Geometry/_log]] — 微分几何操作日志
 - [[Linear-Algebra/_log]] — 线性代数操作日志
 - [[Dotnet/_log]] — .NET 平台操作日志
