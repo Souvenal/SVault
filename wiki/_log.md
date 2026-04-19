@@ -4,6 +4,15 @@
 
 ## Operations Log
 
+## [2026-04-20] COMPILE | doubao-makefile-thread | 1 page created
+
+**Created**:
+- `wiki/Make/Tab缩进.md` — Tab 缩进规则、missing separator 报错、VS Code 配置、`.RECIPEPREFIX` 现代方案
+
+**Topic Logs**: [[Make/_log]]
+
+---
+
 ## [2026-04-20] MIGRATE | windows-proxy-settings.md | 5 pages created
 
 **Created**:
