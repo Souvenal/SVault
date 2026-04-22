@@ -71,22 +71,7 @@ float4 PSMain(float4 pos : SV_POSITION) : SV_Target
 
 允许把多个常量打包成一个缓冲区，一次更新全部，而不是逐个 SetXXX（旧时代做法）。减少 CPU 到 GPU 的 API 调用开销和带宽。
 
-### 5. 布局与打包规则（Packing Rules）
-
-HLSL 有严格的**16 字节对齐**规则（vector 必须从 16 字节边界开始）。常见陷阱：
-
-- `float3` 可能被填充成 `float4`（浪费 4 字节）。
-- `float` 后面接 `float3` 可能导致错位。
-
-**推荐做法**（尤其 Unity 多平台）：
-
-- 用 `float4`、`float4x4` 代替 `float3`、`float3x3`。
-- 按**从大到小**顺序声明变量（float4x4 → float4 → float2 → float）。
-- 避免在 cbuffer 里放 struct（某些场景如 Compute Shader + DXC 会直接报错）。
-
-关于布局和打包的更多细节，参阅 [[Shader-Layout]]。
-
-### 6. 与 StructuredBuffer 的对比
+### 5. 与 StructuredBuffer 的对比
 
 | 特性                | cbuffer (Constant Buffer)         | StructuredBuffer / Buffer |
 | ----------------- | --------------------------------- | ------------------------- |
@@ -98,11 +83,24 @@ HLSL 有严格的**16 字节对齐**规则（vector 必须从 16 字节边界开
 | 对齐要求              | 256 字节对齐 + 内部 16 字节规则             | 元素对齐（通常 4/16 字节）          |
 | Compute Shader 支持 | 有限（Unity 中 Compute 里 struct 常不支持） | 优秀（推荐用于 Compute）          |
 
-### 7. Unity 中的特殊性
+### 6. Unity 中的特殊性
 
 - Unity 用宏 `CBUFFER_START(name)` / `CBUFFER_END` 包裹 cbuffer（兼容多 API）。
 - Compute Shader 中 cbuffer 支持较弱：**不能放 struct**（DXC 会报 "structs in constant buffers not supported for compute shaders"）。
 - 多平台（DX/Vulkan/Metal/OpenGL）下布局必须一致，否则数据错位 → 强制用 float4 等避免 padding 差异。
+
+另外，HLSL 有严格的**16 字节对齐**规则（vector 必须从 16 字节边界开始）。常见陷阱：
+
+- `float3` 可能被填充成 `float4`（浪费 4 字节）。
+- `float` 后面接 `float3` 可能导致错位。
+
+**推荐做法**（尤其 Unity 多平台）：
+
+- 用 `float4`、`float4x4` 代替 `float3`、`float3x3`。
+- 按**从大到小**顺序声明变量（float4x4 → float4 → float2 → float）。
+- 避免在 cbuffer 里放 struct（某些场景如 Compute Shader + DXC 会直接报错）。
+
+关于内存布局的完整规则（std140/std430/scalar），参阅 [[Shader-Languages/Memory-Layout]]。
 
 ## cbuffer 与 uniform 的关系
 

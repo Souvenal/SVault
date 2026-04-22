@@ -130,6 +130,14 @@ struct Data {
 ConstantBuffer<Data> cb;  // 使用 -fvk-use-scalar-layout 后按标量布局
 ```
 
+### 与 HLSL 16 字节对齐的对比
+
+HLSL 的 cbuffer 强制 16 字节向量对齐，而 GLSL std140 在某些情况下更宽松，但在结构体内部同样会导致填充。实际项目中，建议：
+
+- 使用 `float4`、`vec4` 代替 `float3`，避免意外填充
+- 变量按从大到小顺序声明（mat4 → vec4 → vec2 → float）
+- 跨平台时使用 std430 获得更紧凑的布局
+
 ### Slang
 
 Slang 原生支持 scalar 布局：

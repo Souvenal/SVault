@@ -24,7 +24,7 @@
 - [[Dotnet/_index|Dotnet]] — .NET 平台：IDisposable、资源释放
 - [[Fish/_index|Fish]] — Fish shell 配置：环境变量、bash 脚本兼容
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
-- [[GLSL/_index|GLSL]] — GLSL 着色器语言：UBO、std140/std430 布局规则
+- [[GLSL/_index|GLSL]] — GLSL 着色器语言：UBO、UniformBuffer、Scalar-Pitfalls
 - [[Go/_index|Go]] — Go 语言：text/template 模板引擎
 - [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理
 - [[HLSL/_index|HLSL]] — HLSL 着色器语言：cbuffer、ConstantBuffer\<T\> 对比
@@ -55,7 +55,7 @@
 - [[Remote-Desktop/_index|Remote-Desktop]] — 远程桌面方案：DIY 自建与商业软件
 - [[Rendering-Pipeline/_index|Rendering-Pipeline]] — 渲染管线通用概念：Depth-Testing、Fixed-Function-Stages
 - [[Shader-Languages/_index|Shader-Languages]] — GLSL/HLSL/Slang：线程变量、矩阵布局对比
-- [[Shader-Layout/_index|Shader-Layout]] — 着色器内存布局：std140、std430、scalar
+- [[Slang/_index|Slang]] — Slang 着色器语言：scalar 布局、跨语言混合语法
 - [[Software-Testing/_index|Software-Testing]] — 软件测试技术：符号执行、KLEE
 - [[SPIR-V/_index|SPIR-V]] — SPIR-V 编译器工具链：DXC、HLSLcc、编译流程
 - [[UE5/_index|UE5]] — Unreal Engine 5：渲染管线、线程模型、框架类
