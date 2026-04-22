@@ -24,8 +24,10 @@
 - [[Dotnet/_index|Dotnet]] — .NET 平台：IDisposable、资源释放
 - [[Fish/_index|Fish]] — Fish shell 配置：环境变量、bash 脚本兼容
 - [[Git/_index|Git]] — 版本控制：基础操作、worktree、实用技巧
+- [[GLSL/_index|GLSL]] — GLSL 着色器语言：UBO、std140/std430 布局规则
 - [[Go/_index|Go]] — Go 语言：text/template 模板引擎
 - [[GPG/_index|GPG]] — GnuPG 加密签名：pinentry、密钥管理
+- [[HLSL/_index|HLSL]] — HLSL 着色器语言：cbuffer、ConstantBuffer\<T\> 对比
 - [[Homebrew/_index|Homebrew]] — macOS 包管理工具：Formula、Cask、keg-only
 - [[ISA/_index|ISA]] — 指令集架构：PAUSE 指令
 - [[JSON/_index|JSON]] — JSON 数据格式：JSONL、$schema 声明
