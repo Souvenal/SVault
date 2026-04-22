@@ -72,4 +72,6 @@ cmdBuffer.SetComputeTextureParam(cs, kernelIndex, "g_Output", shadowMapTexture);
 
 Unity HDRP 在 `Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/ShaderVariables.hlsl` 中定义常用变量。
 
+详见 [[Shader]] — Shader 通用语法：Pragmas、DXC 编译器、Wave Operations、Native16Bit。
+
 
