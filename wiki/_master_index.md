@@ -16,6 +16,7 @@
 - [[Character-Encoding/_index|Character-Encoding]] — 字符集、编码方案、文本格式
 - [[chezmoi/_index|chezmoi]] — 跨机器 dotfiles 同步工具
 - [[Claude-Code/_index|Claude-Code]] — Anthropic 官方终端 AI 编程助手
+- [[Compiler/_index|Compiler]] — 编译器与链接器：编译原理、链接机制、优化技术
 - [[Clash/_index|Clash]] — Clash 代理工具：系统代理模式、PAC 与全局模式
 - [[cmake/_index|cmake]] — CMake 构建系统：编译器、构建类型、生成器
 - [[Color-Space/_index|Color-Space]] — 色彩空间：Gamma 校正、sRGB

@@ -4,6 +4,37 @@
 
 ## Operations Log
 
+## [2026-04-26] COMPILE | 豆包对话 Mach-O | 1 page created
+
+**Created**:
+- `wiki/Mac-Dev/Mach-O.md` — Mach-O 文件格式：Header、Load Commands、Segments、Fat Binary
+
+**Cross-links**:
+- Mach-O.md ↔ Compiler/Linking
+- Mach-O.md ↔ Linux-Dev/动态链接库
+- Mach-O.md ↔ Mac-Use/_index
+
+**Topic Log**: [[Mac-Dev/_log]]
+
+---
+
+## [2026-04-26] CREATE | Compiler topic + Linking page | 1 topic, 1 page created
+
+**Created**:
+- `wiki/Compiler/` — 编译器与链接器知识主题
+- `wiki/Compiler/Linking.md` — 链接方式：静态链接、动态链接、编译器链接选项
+
+---
+
+## [2026-04-24] CREATE | Neovim/autocmd.md | 1 page created
+
+**Created**:
+- `wiki/Neovim/autocmd.md` — 自动命令：事件响应、Lua API、group 管理
+
+**Topic Log**: [[Neovim/_log]]
+
+---
+
 ## [2026-04-23] COMPILE | HLSL & GLSL topics | 2 topics created
 
 **Created topics**:
