@@ -4,6 +4,39 @@
 
 ## Operations Log
 
+## [2026-04-28] COMPILE | LLM对话学习: egg-info & pyproject.toml 构建后端 | 1 page created, 2 pages updated
+
+**Created**:
+- `wiki/Python/Build-System.md` — .egg-info / .dist-info、pyproject.toml 构建后端选择、四大后端对比
+
+**Updated**:
+- `wiki/Python/Setup-Py.md` — 精简 pyproject.toml 段，添加双向链接
+- `wiki/Python/pip.md` — 演变表增加元数据格式列，添加双向链接
+
+**Topic Log**: [[Python/_log]]
+
+---
+
+## [2026-04-28] COMPILE | LLM对话学习: pip install -e & find_packages | 2 pages updated
+
+**Updated**:
+- `wiki/Python/pip.md` — 新增 Editable Install 章节
+- `wiki/Python/Setup-Py.md` — 新增 find_packages() 两种模式、src layout 漏包等常见坑
+
+**Topic Log**: [[Python/_log]]
+
+---
+
+## [2026-04-27] COMPILE | LLM对话学习: Python setup.py | 1 topic, 1 page created
+
+**Created**:
+- `wiki/Python/` — Python 语言知识主题
+- `wiki/Python/Package-Management.md` — setup.py 作用、pip 演变、pyproject.toml
+
+**Topic Log**: [[Python/_log]]
+
+---
+
 ## [2026-04-26] COMPILE | 豆包对话 Mach-O | 1 page created
 
 **Created**:
@@ -683,6 +716,7 @@
 - [[OpenCode/_log]] — OpenCode CLI 操作日志
 - [[PowerShell/_log]] — PowerShell 配置日志
 - [[Protocol/_log]] — 网络协议与通信协议日志
+- [[Python/_log]] — Python 语言操作日志
 - [[VSCode/_log]] — VSCode 编辑器操作日志
 - [[Web/_log]] — Web 相关技术日志
 - [[chezmoi/_log]] — chezmoi dotfiles 同步日志

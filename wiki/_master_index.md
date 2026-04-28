@@ -51,6 +51,7 @@
 - [[PowerShell/_index|PowerShell]] — PowerShell 配置：mklink 软链接
 - [[Profile/_index|Profile]] — 图形性能分析：移动端 GPU 调试工具
 - [[Protocol/_index|Protocol]] — 网络协议与通信协议
+- [[Python/_index|Python]] — Python 语言：setup.py、pip 演变、pyproject.toml、构建后端
 - [[PyTorch/_index|PyTorch]] — PyTorch 深度学习框架：CUDA 兼容性、sm 计算能力
 - [[Ray-Tracing/_index|Ray-Tracing]] — 光线追踪：Inline Ray Tracing、RayQuery 状态机
 - [[Remote-Desktop/_index|Remote-Desktop]] — 远程桌面方案：DIY 自建与商业软件
